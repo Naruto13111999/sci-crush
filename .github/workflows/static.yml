@@ -1,0 +1,60 @@
+name: Deploy static content to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# sci-crush is the repo root (go.mod at top level). Use "sci-crush" only if this
+# project lives in a subfolder of a monorepo.
+env:
+  SITE_DIR: .
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify project layout
+        run: |
+          if [ ! -f go.mod ]; then
+            echo "::error::go.mod is missing at repo root."
+            exit 1
+          fi
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache-dependency-path: go.mod
+
+      - name: Build static site
+        env:
+          SCI_CRUSH_API_URL: ${{ secrets.SCI_CRUSH_API_URL }}
+        run: go run ./cmd/staticexport
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
