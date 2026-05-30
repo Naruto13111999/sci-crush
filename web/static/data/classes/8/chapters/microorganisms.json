@@ -1,0 +1,161 @@
+{
+  "id": "microorganisms",
+  "classId": "8",
+  "name": "Microorganisms: Friend and Foe",
+  "subject": "biology",
+  "icon": "🦠",
+  "summary": "Tiny organisms you can't see — some make bread rise, some make you sick.",
+  "readTime": "6 min",
+  "crushed": [
+    {
+      "emoji": "🔍",
+      "title": "Micro = too small to see",
+      "text": "Need a microscope. Four main types: bacteria, viruses, fungi, protozoa."
+    },
+    {
+      "emoji": "🍞",
+      "title": "Friends: food & medicine",
+      "text": "Yeast ferments dough. Bacteria make curd, antibiotics, and fix nitrogen in soil."
+    },
+    {
+      "emoji": "🤒",
+      "title": "Foes: disease",
+      "text": "Viruses cause flu & COVID. Bacteria cause cholera & TB. Protozoa cause malaria."
+    },
+    {
+      "emoji": "💉",
+      "title": "Vaccines train immunity",
+      "text": "Weakened germs teach your body to recognize and fight the real thing."
+    },
+    {
+      "emoji": "🧼",
+      "title": "Hygiene kills germs",
+      "text": "Boiling, pasteurization, and disinfectants stop microbial growth."
+    }
+  ],
+  "sections": [
+    {
+      "id": "types",
+      "title": "Four Types of Microorganisms",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Bacteria",
+          "detail": "Single-celled prokaryotes. Some helpful (nitrogen fixers), some harmful (pathogens)",
+          "icon": "🟢"
+        },
+        {
+          "label": "Viruses",
+          "detail": "Not truly alive — need a host cell to reproduce. Cause many diseases",
+          "icon": "🔴",
+          "highlight": true
+        },
+        {
+          "label": "Fungi",
+          "detail": "Yeast, moulds, mushrooms. Decomposers + bread/alcohol makers",
+          "icon": "🍄"
+        },
+        {
+          "label": "Protozoa",
+          "detail": "Single-celled eukaryotes. Amoeba, Plasmodium (malaria)",
+          "icon": "💧"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "curd-formation",
+      "title": "How Milk Becomes Curd",
+      "description": "Lactobacillus bacteria turn milk sugar into lactic acid — curdling the milk.",
+      "steps": [
+        {
+          "label": "Warm milk",
+          "action": "Add starter curd",
+          "description": "A spoon of curd contains millions of Lactobacillus bacteria.",
+          "icon": "🥛"
+        },
+        {
+          "label": "Bacteria",
+          "action": "Multiply rapidly",
+          "description": "Warm temperature (30–40°C) is ideal for bacterial growth.",
+          "icon": "🦠"
+        },
+        {
+          "label": "Lactose",
+          "action": "Converted to lactic acid",
+          "description": "Bacteria ferment milk sugar (lactose).",
+          "icon": "⚗️"
+        },
+        {
+          "label": "Milk protein",
+          "action": "Coagulates",
+          "description": "Acid denatures casein — milk solids clump together.",
+          "icon": "🧀"
+        },
+        {
+          "label": "Result",
+          "action": "Curd forms",
+          "description": "Thick, tangy curd ready in 6–8 hours.",
+          "icon": "✅"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Microorganism",
+      "definition": "Organism visible only under a microscope",
+      "analogy": "Invisible tenants everywhere around you"
+    },
+    {
+      "term": "Pathogen",
+      "definition": "Disease-causing microorganism",
+      "analogy": "Unwanted guest that makes you sick"
+    },
+    {
+      "term": "Fermentation",
+      "definition": "Anaerobic breakdown of sugars by microbes",
+      "analogy": "Bacteria eating sugar and burping acid"
+    }
+  ],
+  "related": [
+    "cell-structure"
+  ],
+  "demos": [
+    {
+      "id": "curd-formation",
+      "title": "Curd Formation by Lactobacillus",
+      "description": "Warm milk + bacteria → lactic acid → milk proteins clump into curd.",
+      "scene": "fermentation",
+      "steps": [
+        {
+          "label": "Add starter",
+          "description": "A spoon of curd (Lactobacillus) is mixed into warm milk.",
+          "visual": "mix"
+        },
+        {
+          "label": "Bacteria multiply",
+          "description": "Bacteria ferment lactose sugar into lactic acid.",
+          "visual": "react"
+        },
+        {
+          "label": "Curd sets",
+          "description": "Acid lowers pH — milk proteins coagulate into soft curd.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Microorganisms are tiny living things invisible to the naked eye — bacteria, fungi, protozoa, algae, and viruses. This chapter covers their types, useful roles (food, medicine, cleaning), harmful effects (diseases), and how to prevent them through hygiene and preservation.",
+    "keyPoints": [
+      "Microorganisms are classified as bacteria, fungi, protozoa, algae, and viruses.",
+      "Friendly microbes: Lactobacillus makes curd; yeast ferments bread and alcohol; Rhizobium fixes nitrogen.",
+      "Harmful microbes cause diseases like cholera, tuberculosis, malaria, and food poisoning.",
+      "Preservation methods — pasteurisation, refrigeration, salting, and chemical preservatives — slow microbial growth.",
+      "Vaccines train the immune system; antibiotics kill bacteria but not viruses."
+    ],
+    "examFocus": "Give examples of useful vs harmful microorganisms. Explain how curd forms and how Louis Pasteur discovered pasteurisation."
+  }
+}

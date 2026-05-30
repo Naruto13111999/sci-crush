@@ -1,0 +1,202 @@
+{
+  "id": "crop-production",
+  "classId": "8",
+  "name": "Crop Production and Management",
+  "subject": "biology",
+  "icon": "🌾",
+  "summary": "How food grows — soil prep, sowing, irrigation, manures vs fertilisers, and protecting crops from weeds and pests.",
+  "readTime": "7 min",
+  "crushed": [
+    {
+      "emoji": "🌱",
+      "title": "Agriculture = crop production",
+      "text": "Same piece of land prepared, sown, irrigated, and harvested year after year."
+    },
+    {
+      "emoji": "🚜",
+      "title": "Soil preparation first",
+      "text": "Ploughing loosens soil for air & roots. Levelling for uniform irrigation. Manuring adds nutrients."
+    },
+    {
+      "emoji": "💧",
+      "title": "Irrigation methods",
+      "text": "Drip (best — saves water), sprinkler, chain pump, rahat (animal-powered)."
+    },
+    {
+      "emoji": "🧪",
+      "title": "Manure vs fertiliser",
+      "text": "Manure = organic, slow, improves soil. Fertiliser = chemical, fast, can harm soil if overused."
+    },
+    {
+      "emoji": "🌿",
+      "title": "Weeding & harvesting",
+      "text": "Weeds compete for nutrients — remove by khurpi or weedicides. Harvest when crop matures."
+    }
+  ],
+  "sections": [
+    {
+      "id": "steps",
+      "title": "Steps in Crop Production",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Soil preparation",
+          "detail": "Ploughing, levelling, manuring",
+          "icon": "🚜",
+          "highlight": true
+        },
+        {
+          "label": "Sowing",
+          "detail": "Quality seeds, proper spacing, right depth",
+          "icon": "🌱",
+          "highlight": true
+        },
+        {
+          "label": "Adding manure & fertiliser",
+          "detail": "Nutrients for healthy growth",
+          "icon": "🧪"
+        },
+        {
+          "label": "Irrigation",
+          "detail": "Regular water supply at right intervals",
+          "icon": "💧",
+          "highlight": true
+        },
+        {
+          "label": "Weeding",
+          "detail": "Remove unwanted plants competing with crop",
+          "icon": "🌿"
+        },
+        {
+          "label": "Harvesting & storage",
+          "detail": "Cut crop at maturity, dry and store safely",
+          "icon": "🏚️"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Manure vs Fertiliser",
+      "left": {
+        "label": "Manure (Organic)",
+        "points": [
+          "From decomposed plant/animal waste",
+          "Slow nutrient release",
+          "Improves soil texture",
+          "Eco-friendly"
+        ]
+      },
+      "right": {
+        "label": "Fertiliser (Chemical)",
+        "points": [
+          "Factory-made (NPK)",
+          "Fast nutrient supply",
+          "Can reduce soil fertility if overused",
+          "Can pollute water bodies"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "crop-cycle",
+      "title": "Kharif Crop Cycle (Monsoon Season)",
+      "description": "Follow rice from soil preparation to harvest.",
+      "steps": [
+        {
+          "label": "June",
+          "action": "Plough & flood fields",
+          "description": "Fields ploughed and flooded with monsoon rain.",
+          "icon": "🌧️"
+        },
+        {
+          "label": "Sowing",
+          "action": "Rice seedlings transplanted",
+          "description": "Pre-grown seedlings planted in flooded fields.",
+          "icon": "🌱"
+        },
+        {
+          "label": "Growth",
+          "action": "Irrigate & weed",
+          "description": "Water level maintained; weeds removed regularly.",
+          "icon": "💧"
+        },
+        {
+          "label": "October",
+          "action": "Harvest",
+          "description": "Golden rice stalks cut and threshed.",
+          "icon": "🌾"
+        },
+        {
+          "label": "Storage",
+          "action": "Dry & store grain",
+          "description": "Grain dried to prevent fungal growth in granaries.",
+          "icon": "🏚️"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Kharif crops",
+      "definition": "Monsoon-season crops sown in June-July — rice, maize, cotton",
+      "analogy": "Rain-fed summer crops"
+    },
+    {
+      "term": "Rabi crops",
+      "definition": "Winter-season crops sown in October-November — wheat, gram, pea",
+      "analogy": "Cool-season crops"
+    },
+    {
+      "term": "Weeding",
+      "definition": "Removing unwanted plants that compete with the crop",
+      "analogy": "Kicking freeloaders out of the crop's lunch"
+    },
+    {
+      "term": "Winnowing",
+      "definition": "Separating grain from chaff using wind",
+      "analogy": "Light chaff blows away, heavy grain stays"
+    }
+  ],
+  "related": [
+    "microorganisms",
+    "conservation-plants-animals"
+  ],
+  "demos": [
+    {
+      "id": "irrigation-growth",
+      "title": "Irrigation & Crop Growth",
+      "description": "Water reaches the field through channels; seeds germinate and shoots grow.",
+      "scene": "agriculture",
+      "steps": [
+        {
+          "label": "Water released",
+          "description": "Canal water flows into furrows between crop rows.",
+          "visual": "mix"
+        },
+        {
+          "label": "Soil absorbs water",
+          "description": "Moisture reaches seed coats — imbibition begins.",
+          "visual": "react"
+        },
+        {
+          "label": "Germination",
+          "description": "Roots anchor and green shoots rise above the soil.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Agriculture feeds the nation. This chapter explains how farmers prepare soil, select seeds, sow crops, add manure and fertilisers, irrigate fields, protect crops from weeds and pests, and harvest and store grain — the complete crop production cycle.",
+    "keyPoints": [
+      "Good soil preparation (ploughing, levelling, manuring) gives roots air, water, and nutrients.",
+      "Quality seeds with high germination rate are sown by broadcasting, drilling, or transplantation.",
+      "Manure improves soil structure; fertilisers (NPK) give quick nutrients but overuse harms soil.",
+      "Irrigation methods include wells, canals, rivers, tanks, and modern drip/sprinkler systems.",
+      "Weeding removes unwanted plants; pesticides control insects, fungi, and rodents."
+    ],
+    "examFocus": "Compare manure vs fertilisers. Name irrigation methods. Explain why crop rotation and mixed cropping improve yield."
+  }
+}

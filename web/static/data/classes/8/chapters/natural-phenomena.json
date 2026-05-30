@@ -1,0 +1,234 @@
+{
+  "id": "natural-phenomena",
+  "classId": "8",
+  "name": "Some Natural Phenomena",
+  "subject": "physics",
+  "icon": "⚡",
+  "summary": "Lightning, earthquakes, and thunderstorms — the science behind nature's most dramatic events and how to stay safe.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "⚡",
+      "title": "Lightning = massive spark",
+      "text": "Charge builds in clouds → jumps to ground or another cloud. Heats air to ~30,000°C — thunder is the shockwave."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Earthquake = plate movement",
+      "text": "Tectonic plates shift suddenly. Seismic waves shake ground. Richter scale measures magnitude."
+    },
+    {
+      "emoji": "🛡️",
+      "title": "Lightning safety",
+      "text": "Stay indoors, avoid trees/water/metal. Car is safe (Faraday cage). Squat low in open field."
+    },
+    {
+      "emoji": "🏠",
+      "title": "Earthquake safety",
+      "text": "Under sturdy table, away from windows. Open field if outside. Don't use lifts."
+    },
+    {
+      "emoji": "🌩️",
+      "title": "Thunderstorm",
+      "text": "Rising warm air → cumulonimbus cloud → rain + lightning + thunder + sometimes hail."
+    }
+  ],
+  "sections": [
+    {
+      "id": "lightning",
+      "title": "Lightning Formation",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Charge separation",
+          "detail": "Ice particles in cloud collide — positive top, negative bottom",
+          "icon": "☁️",
+          "highlight": true
+        },
+        {
+          "label": "Induction",
+          "detail": "Negative cloud base repels electrons in ground — positive charge on surface",
+          "icon": "⬇️"
+        },
+        {
+          "label": "Discharge",
+          "detail": "When potential difference is huge, charge jumps — lightning bolt",
+          "icon": "⚡",
+          "highlight": true
+        },
+        {
+          "label": "Thunder",
+          "detail": "Air heated instantly expands explosively — sonic boom we hear as thunder",
+          "icon": "🔊"
+        }
+      ]
+    },
+    {
+      "id": "earthquake",
+      "title": "Earthquake Basics",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Focus (hypocentre)",
+          "detail": "Point underground where earthquake originates",
+          "icon": "📍",
+          "highlight": true
+        },
+        {
+          "label": "Epicentre",
+          "detail": "Point on surface directly above focus — most damage here",
+          "icon": "🎯",
+          "highlight": true
+        },
+        {
+          "label": "Seismic waves",
+          "detail": "P-waves (fast, push-pull) and S-waves (slow, side-to-side)",
+          "icon": "〰️"
+        },
+        {
+          "label": "Richter scale",
+          "detail": "Logarithmic scale — each step = 10× more amplitude",
+          "icon": "📊"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "lightning-strike",
+      "title": "How Lightning Strikes",
+      "description": "From charge buildup in a cloud to the bolt hitting the ground.",
+      "steps": [
+        {
+          "label": "Cloud",
+          "action": "Charges separate",
+          "description": "Positive charges top, negative charges bottom of thundercloud.",
+          "icon": "☁️"
+        },
+        {
+          "label": "Ground",
+          "action": "Positive charge induced",
+          "description": "Negative cloud base pushes electrons away — ground becomes positively charged.",
+          "icon": "🌍"
+        },
+        {
+          "label": "Leader",
+          "action": "Stepped leader descends",
+          "description": "Negative charge creeps downward in jagged steps toward ground.",
+          "icon": "⬇️"
+        },
+        {
+          "label": "Return stroke",
+          "action": "Massive current flows",
+          "description": "Positive charge rushes up to meet it — the bright flash we see.",
+          "icon": "⚡"
+        },
+        {
+          "label": "Thunder",
+          "action": "Air expands",
+          "description": "Channel heated to 30,000°C — air explodes outward as thunder.",
+          "icon": "🔊"
+        }
+      ]
+    },
+    {
+      "id": "earthquake-wave",
+      "title": "How Seismic Waves Travel",
+      "description": "Earthquake at focus sends waves through Earth — seismograph detects them.",
+      "steps": [
+        {
+          "label": "Plate slip",
+          "action": "Focus underground",
+          "description": "Tectonic plates suddenly slip at a fault line.",
+          "icon": "🌍"
+        },
+        {
+          "label": "P-waves",
+          "action": "Fast, push-pull",
+          "description": "Primary waves travel fastest — arrive first at seismograph.",
+          "icon": "➡️"
+        },
+        {
+          "label": "S-waves",
+          "action": "Slower, side-to-side",
+          "description": "Secondary waves arrive second — cause more shaking damage.",
+          "icon": "↔️"
+        },
+        {
+          "label": "Surface",
+          "action": "Ground shakes",
+          "description": "Waves reach surface — buildings shake most at epicentre.",
+          "icon": "🏚️"
+        },
+        {
+          "label": "Seismograph",
+          "action": "Magnitude recorded",
+          "description": "Instrument records wave amplitude — Richter magnitude calculated.",
+          "icon": "📊"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Lightning conductor",
+      "definition": "Metal rod on buildings that safely directs lightning to ground",
+      "analogy": "A lightning escape route for buildings"
+    },
+    {
+      "term": "Richter scale",
+      "definition": "Logarithmic scale measuring earthquake magnitude",
+      "analogy": "Each +1 = 10× stronger shaking"
+    },
+    {
+      "term": "Seismograph",
+      "definition": "Instrument that detects and records seismic waves",
+      "analogy": "An earthquake heartbeat monitor"
+    },
+    {
+      "term": "Tsunami",
+      "definition": "Giant ocean wave caused by undersea earthquake",
+      "analogy": "Earthquake's splash in the ocean"
+    }
+  ],
+  "related": [
+    "force-pressure",
+    "stars-solar-system"
+  ],
+  "demos": [
+    {
+      "id": "lightning-thunder",
+      "title": "Lightning & Thunder",
+      "description": "Charge builds in clouds → lightning discharges → thunder follows.",
+      "scene": "lightning",
+      "steps": [
+        {
+          "label": "Charge separation",
+          "description": "Ice particles in clouds separate positive and negative charges.",
+          "visual": "mix"
+        },
+        {
+          "label": "Lightning strike",
+          "description": "Huge voltage jumps — bright flash heats air to ~30,000°C.",
+          "visual": "react"
+        },
+        {
+          "label": "Thunder",
+          "description": "Heated air expands explosively — sound arrives seconds later.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "This chapter explains natural events involving static electricity (charging by rubbing, types of charges, lightning) and earthquakes (causes, measurement on Richter scale, safety measures). It connects physics concepts to real-world phenomena we observe in nature.",
+    "keyPoints": [
+      "Like charges repel; unlike charges attract; charge transfers by rubbing (e.g. comb and hair).",
+      "Lightning: charge separation in clouds → discharge → thunder from heated air expanding.",
+      "Lightning conductor protects buildings by providing a safe path to ground.",
+      "Earthquakes caused by movement of tectonic plates; measured on Richter scale.",
+      "Seismic zones in India; safety: take cover under sturdy furniture, stay away from windows."
+    ],
+    "examFocus": "Explain lightning formation. Draw a lightning conductor. List earthquake safety rules."
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "id": "pollution-air-water",
+  "classId": "8",
+  "name": "Pollution of Air and Water",
+  "subject": "chemistry",
+  "icon": "🌍",
+  "summary": "Air gets polluted by CO₂, CO, CFCs, and particulates. Water by sewage, fertilisers, and industrial waste. Chemical reactions drive acid rain and eutrophication.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "🌫️",
+      "title": "Air pollutants",
+      "text": "CO₂ (global warming), CO (poisonous), SO₂ & NO₂ (acid rain), CFCs (ozone hole), smoke particulates."
+    },
+    {
+      "emoji": "🌧️",
+      "title": "Acid rain",
+      "text": "SO₂ + H₂O → H₂SO₃. NO₂ + H₂O → HNO₃. Damages buildings, kills fish, harms forests."
+    },
+    {
+      "emoji": "💧",
+      "title": "Water pollutants",
+      "text": "Sewage (pathogens), fertilisers (eutrophication), industrial chemicals, oil spills."
+    },
+    {
+      "emoji": "🌿",
+      "title": "Eutrophication",
+      "text": "Excess nitrates/phosphates → algae bloom → oxygen depletion → fish die."
+    },
+    {
+      "emoji": "♻️",
+      "title": "Ganga Action Plan",
+      "text": "India's effort to reduce sewage & industrial waste in the Ganga river."
+    }
+  ],
+  "sections": [
+    {
+      "id": "air-pollutants",
+      "title": "Major Air Pollutants",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Carbon dioxide",
+          "detail": "Greenhouse gas — global warming. From burning fossil fuels",
+          "icon": "🌡️",
+          "highlight": true
+        },
+        {
+          "label": "Carbon monoxide",
+          "detail": "Poisonous — binds to haemoglobin. From incomplete combustion",
+          "icon": "☠️",
+          "highlight": true
+        },
+        {
+          "label": "Sulphur dioxide",
+          "detail": "From burning coal. Causes acid rain & respiratory problems",
+          "icon": "🏭",
+          "highlight": true
+        },
+        {
+          "label": "Nitrogen oxides",
+          "detail": "From vehicle exhaust. Acid rain + smog",
+          "icon": "🚗"
+        },
+        {
+          "label": "CFCs",
+          "detail": "Deplete ozone layer. Banned in most countries now",
+          "icon": "🕳️"
+        },
+        {
+          "label": "Particulate matter",
+          "detail": "Smoke, dust — causes breathing problems",
+          "icon": "🌫️"
+        }
+      ]
+    },
+    {
+      "id": "water-pollutants",
+      "title": "Major Water Pollutants",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Sewage",
+          "detail": "Organic waste + pathogens — spreads waterborne diseases",
+          "icon": "🚽",
+          "highlight": true
+        },
+        {
+          "label": "Fertilisers",
+          "detail": "Nitrates & phosphates cause eutrophication in lakes",
+          "icon": "🌾",
+          "highlight": true
+        },
+        {
+          "label": "Industrial waste",
+          "detail": "Toxic chemicals (mercury, lead, arsenic) poison water",
+          "icon": "🏭"
+        },
+        {
+          "label": "Oil spills",
+          "detail": "Coats water surface — kills aquatic life",
+          "icon": "🛢️"
+        }
+      ]
+    }
+  ],
+  "demos": [
+    {
+      "id": "acid-rain-so2",
+      "title": "Acid Rain from Sulphur Dioxide",
+      "type": "reaction",
+      "description": "SO₂ from burning coal dissolves in rainwater to form sulphurous acid.",
+      "equation": "SO₂ + H₂O → H₂SO₃",
+      "conditions": "Atmospheric moisture",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "SO₂",
+          "name": "Sulphur dioxide",
+          "color": "#94A3B8",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#CBD5E1"
+        },
+        {
+          "symbol": "H₂O",
+          "name": "Rainwater",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "H₂SO₃",
+          "name": "Sulphurous acid",
+          "color": "#EF4444",
+          "state": "liquid",
+          "kind": "liquid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Coal burned",
+          "description": "Power plants burn coal releasing SO₂ into air",
+          "visual": "mix"
+        },
+        {
+          "label": "SO₂ rises",
+          "description": "Sulphur dioxide mixes with atmosphere",
+          "visual": "react"
+        },
+        {
+          "label": "Rain falls",
+          "description": "SO₂ dissolves in cloud moisture",
+          "visual": "mix"
+        },
+        {
+          "label": "Acid rain",
+          "description": "H₂SO₃ falls as acid rain — pH below 5.6, damages marble & metal",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "acid-rain-no2",
+      "title": "Nitric Acid in Acid Rain",
+      "type": "reaction",
+      "description": "Nitrogen oxides from vehicles react with water to form nitric acid.",
+      "equation": "2NO₂ + H₂O → HNO₃ + HNO₂",
+      "conditions": "Vehicle exhaust + rain",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "NO₂",
+          "name": "Nitrogen dioxide",
+          "color": "#A855F7",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#C4B5FD"
+        },
+        {
+          "symbol": "H₂O",
+          "name": "Rainwater",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "HNO₃",
+          "name": "Nitric acid",
+          "color": "#EF4444",
+          "state": "liquid",
+          "kind": "liquid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Vehicle exhaust",
+          "description": "Cars release NO₂ at high temperatures in engines",
+          "visual": "mix"
+        },
+        {
+          "label": "Atmosphere",
+          "description": "NO₂ mixes with air and moisture",
+          "visual": "react"
+        },
+        {
+          "label": "Dissolves in rain",
+          "description": "Forms nitric acid in rainwater",
+          "visual": "product"
+        },
+        {
+          "label": "Damage",
+          "description": "Acid corrodes Taj Mahal marble, kills lake fish",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "co-poisoning",
+      "title": "Carbon Monoxide — Silent Killer",
+      "type": "reaction",
+      "description": "Incomplete combustion produces CO which binds to haemoglobin 200× stronger than O₂.",
+      "equation": "2C + O₂ → 2CO",
+      "conditions": "Incomplete combustion (closed room)",
+      "effect": "gas",
+      "reactants": [
+        {
+          "symbol": "C",
+          "name": "Carbon (fuel)",
+          "color": "#374151",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen (limited)",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "CO",
+          "name": "Carbon monoxide",
+          "color": "#EF4444",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#FCA5A5"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Closed room",
+          "description": "Coal/wood burning in poorly ventilated room",
+          "visual": "mix"
+        },
+        {
+          "label": "Limited O₂",
+          "description": "Not enough oxygen for complete combustion",
+          "visual": "react"
+        },
+        {
+          "label": "CO builds up",
+          "description": "Colourless, odourless CO accumulates in air",
+          "visual": "product"
+        },
+        {
+          "label": "Haemoglobin blocked",
+          "description": "CO binds haemoglobin — body starved of O₂",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    }
+  ],
+  "flows": [
+    {
+      "id": "eutrophication",
+      "title": "Eutrophication — How Fertilisers Kill a Lake",
+      "description": "Excess nutrients trigger an algae bloom that suffocates aquatic life.",
+      "steps": [
+        {
+          "label": "Farm runoff",
+          "action": "Fertilisers enter lake",
+          "description": "Rain washes nitrates & phosphates from fields into water body.",
+          "icon": "🌾"
+        },
+        {
+          "label": "Algae bloom",
+          "action": "Algae multiply",
+          "description": "Nutrients cause explosive algae growth on surface.",
+          "icon": "🟢"
+        },
+        {
+          "label": "Block sunlight",
+          "action": "Underwater plants die",
+          "description": "Thick algae layer blocks light — submerged plants can't photosynthesise.",
+          "icon": "🌑"
+        },
+        {
+          "label": "Bacteria decompose",
+          "action": "O₂ used up",
+          "description": "Dead algae decomposed by bacteria using dissolved oxygen.",
+          "icon": "🦠"
+        },
+        {
+          "label": "Fish die",
+          "action": "Oxygen depleted",
+          "description": "Water becomes anaerobic — fish and aquatic animals suffocate.",
+          "icon": "💀"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Acid rain",
+      "definition": "Rain with pH below 5.6 due to dissolved acidic gases",
+      "analogy": "Rain that behaves like weak vinegar"
+    },
+    {
+      "term": "Eutrophication",
+      "definition": "Excessive nutrient enrichment causing algae blooms and oxygen depletion",
+      "analogy": "Overfeeding a pond until it chokes"
+    },
+    {
+      "term": "Greenhouse effect",
+      "definition": "CO₂ traps heat in atmosphere, warming the Earth",
+      "analogy": "A blanket of gas keeping heat from escaping"
+    },
+    {
+      "term": "Potable water",
+      "definition": "Water safe for drinking",
+      "analogy": "Water that won't make you sick"
+    }
+  ],
+  "related": [
+    "combustion-flame",
+    "coal-petroleum",
+    "conservation-plants-animals"
+  ],
+  "chapterSummary": {
+    "overview": "Pollution contaminates air and water, harming health and ecosystems. This chapter identifies sources (vehicles, factories, sewage), effects (acid rain, eutrophication, diseases), the greenhouse effect, ozone depletion, and measures to control pollution at individual and government levels.",
+    "keyPoints": [
+      "Air pollutants: CO, CO₂, SO₂, NO₂, particulate matter, CFCs.",
+      "Greenhouse effect: CO₂ and methane trap heat → global warming and climate change.",
+      "Water pollutants: sewage, industrial waste, fertilisers — cause eutrophication and diseases.",
+      "Acid rain from SO₂ and NO₂ damages buildings, soil, and aquatic life.",
+      "Prevention: CNG vehicles, catalytic converters, STPs, rainwater harvesting, reduce-plastic use."
+    ],
+    "examFocus": "Explain greenhouse effect and acid rain. List water purification steps. Suggest pollution control measures."
+  }
+}

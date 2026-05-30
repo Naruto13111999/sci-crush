@@ -1,0 +1,396 @@
+{
+  "id": "combustion-flame",
+  "classId": "8",
+  "name": "Combustion and Flame",
+  "subject": "chemistry",
+  "icon": "🔥",
+  "summary": "Burning needs fuel, oxygen, and ignition temperature. Complete vs incomplete combustion — and what's inside a candle flame.",
+  "readTime": "9 min",
+  "crushed": [
+    {
+      "emoji": "🔺",
+      "title": "Fire triangle",
+      "text": "Fuel + Oxygen + Heat (ignition temp) = Combustion. Remove any one → fire stops."
+    },
+    {
+      "emoji": "✅",
+      "title": "Complete combustion",
+      "text": "Plenty of O₂ → clean blue flame → CO₂ + H₂O. No smoke, max energy."
+    },
+    {
+      "emoji": "⚠️",
+      "title": "Incomplete combustion",
+      "text": "Limited O₂ → yellow sooty flame → CO (poisonous!) + C (soot) + H₂O."
+    },
+    {
+      "emoji": "🕯️",
+      "title": "Candle flame has 3 zones",
+      "text": "Dark inner (unburnt vapour) → luminous yellow (incomplete) → blue outer (complete)."
+    },
+    {
+      "emoji": "🌡️",
+      "title": "Ignition temperature",
+      "text": "Minimum temp for a substance to catch fire. Cotton ~250°C, but gunpowder ~80°C."
+    }
+  ],
+  "sections": [
+    {
+      "id": "fire-triangle",
+      "title": "The Fire Triangle",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Fuel",
+          "detail": "Combustible material — wood, LPG, kerosene, wax",
+          "icon": "🪵",
+          "highlight": true
+        },
+        {
+          "label": "Oxygen",
+          "detail": "From air (~21% O₂). Fire dies in closed spaces when O₂ runs out",
+          "icon": "🌬️",
+          "highlight": true
+        },
+        {
+          "label": "Heat",
+          "detail": "Must reach ignition temperature to start and sustain combustion",
+          "icon": "🌡️",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "flame-zones",
+      "title": "Zones of a Candle Flame",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Inner dark zone",
+          "detail": "Unburnt wax vapour — coolest part, no burning",
+          "icon": "⬛"
+        },
+        {
+          "label": "Luminous yellow zone",
+          "detail": "Incomplete combustion — carbon glows yellow, produces soot",
+          "icon": "🟡",
+          "highlight": true
+        },
+        {
+          "label": "Outer blue zone",
+          "detail": "Complete combustion — hottest zone (~1400°C), CO₂ + H₂O formed",
+          "icon": "🔵",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Complete vs Incomplete Combustion",
+      "left": {
+        "label": "Complete ✅",
+        "points": [
+          "Plenty of oxygen",
+          "Blue flame",
+          "Products: CO₂ + H₂O",
+          "No smoke/soot",
+          "Maximum heat released"
+        ]
+      },
+      "right": {
+        "label": "Incomplete ⚠️",
+        "points": [
+          "Limited oxygen",
+          "Yellow/sooty flame",
+          "Products: CO + C + H₂O",
+          "CO is poisonous",
+          "Less heat, more pollution"
+        ]
+      }
+    }
+  ],
+  "demos": [
+    {
+      "id": "complete-combustion",
+      "title": "Complete Combustion of Carbon",
+      "type": "reaction",
+      "description": "Carbon burns completely in plenty of oxygen to form carbon dioxide.",
+      "equation": "C + O₂ → CO₂",
+      "conditions": "Plenty of O₂",
+      "effect": "heat",
+      "reactants": [
+        {
+          "symbol": "C",
+          "name": "Carbon",
+          "color": "#374151",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "CO₂",
+          "name": "Carbon dioxide",
+          "color": "#94A3B8",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#94A3B8"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Heat carbon",
+          "description": "Carbon is heated to ignition temperature",
+          "visual": "heat"
+        },
+        {
+          "label": "Oxygen supply",
+          "description": "Plenty of O₂ from air surrounds the carbon",
+          "visual": "mix"
+        },
+        {
+          "label": "Complete burn",
+          "description": "Blue flame — every carbon atom bonds with O₂",
+          "visual": "react"
+        },
+        {
+          "label": "CO₂ released",
+          "description": "Colourless CO₂ gas rises — no soot left behind",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "incomplete-combustion",
+      "title": "Incomplete Combustion of Carbon",
+      "type": "reaction",
+      "description": "Limited oxygen produces poisonous carbon monoxide and black soot.",
+      "equation": "2C + O₂ → 2CO",
+      "conditions": "Limited O₂",
+      "effect": "gas",
+      "reactants": [
+        {
+          "symbol": "C",
+          "name": "Carbon",
+          "color": "#374151",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen (limited)",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "CO",
+          "name": "Carbon monoxide",
+          "color": "#EF4444",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#FCA5A5"
+        },
+        {
+          "symbol": "C",
+          "name": "Soot",
+          "color": "#1F2937",
+          "state": "solid",
+          "kind": "metal"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Limited air",
+          "description": "Oxygen supply is restricted — e.g. covered flame",
+          "visual": "mix"
+        },
+        {
+          "label": "Yellow flame",
+          "description": "Incomplete burning — yellow luminous zone appears",
+          "visual": "react"
+        },
+        {
+          "label": "CO forms",
+          "description": "Poisonous CO gas produced — odourless and deadly",
+          "visual": "product"
+        },
+        {
+          "label": "Soot deposits",
+          "description": "Unburnt carbon deposits as black soot on surfaces",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "mg-burning",
+      "title": "Magnesium Ribbon Burning",
+      "type": "reaction",
+      "description": "Magnesium burns with a dazzling white light — used in flash photography.",
+      "equation": "2Mg + O₂ → 2MgO",
+      "conditions": "Heat / flame",
+      "effect": "light",
+      "reactants": [
+        {
+          "symbol": "Mg",
+          "name": "Magnesium",
+          "color": "#C0C0C0",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "MgO",
+          "name": "Magnesium oxide",
+          "color": "#FFFFFF",
+          "state": "solid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Hold in flame",
+          "description": "Magnesium ribbon is held in a Bunsen burner flame",
+          "visual": "heat"
+        },
+        {
+          "label": "Dazzling flash",
+          "description": "Intense white light as Mg reacts with O₂",
+          "visual": "spark"
+        },
+        {
+          "label": "White ash",
+          "description": "White powder (MgO) remains after burning",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "water-boiling",
+      "title": "Boiling Water on a Bunsen Burner",
+      "type": "reaction",
+      "description": "Zoom from the lab bench to the beaker — watch water heat, bubble, and steam rise.",
+      "scene": "boiling",
+      "steps": [
+        {
+          "label": "Lab bench",
+          "description": "Beaker of water on a tripod over a Bunsen burner — wide lab view.",
+          "visual": "mix"
+        },
+        {
+          "label": "Water heats",
+          "description": "Blue flame transfers heat — convection currents swirl in the water.",
+          "visual": "heat"
+        },
+        {
+          "label": "Bubbles form",
+          "description": "Zoom in: bubbles nucleate at the bottom and rise as temperature hits 100°C.",
+          "visual": "react"
+        },
+        {
+          "label": "Rolling boil",
+          "description": "Vigorous boiling — steam (water vapour) rises from the surface.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "candle-flame",
+      "title": "What Happens Inside a Candle Flame",
+      "description": "Track wax vapour from the wick through all three flame zones.",
+      "steps": [
+        {
+          "label": "Wick",
+          "action": "Wax melts & vapourises",
+          "description": "Heat melts wax near wick; liquid wax rises by capillary action and vapourises.",
+          "icon": "🕯️"
+        },
+        {
+          "label": "Inner zone",
+          "action": "Unburnt vapour",
+          "description": "Dark zone — wax vapour, no oxygen yet, no combustion.",
+          "icon": "⬛"
+        },
+        {
+          "label": "Yellow zone",
+          "action": "Partial burning",
+          "description": "Limited O₂ — carbon particles glow yellow. Soot can form.",
+          "icon": "🟡"
+        },
+        {
+          "label": "Blue zone",
+          "action": "Complete combustion",
+          "description": "Plenty of O₂ at the edge — CO₂ and H₂O produced. Hottest part.",
+          "icon": "🔵"
+        },
+        {
+          "label": "Rising gas",
+          "action": "CO₂ + H₂O rise",
+          "description": "Hot products rise — convection current draws fresh O₂ inward.",
+          "icon": "💨"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Combustion",
+      "definition": "Chemical process of burning — substance reacts with O₂ releasing heat and light",
+      "analogy": "Controlled rapid oxidation"
+    },
+    {
+      "term": "Ignition temperature",
+      "definition": "Minimum temperature at which a substance catches fire",
+      "analogy": "The temperature threshold before something goes up in flames"
+    },
+    {
+      "term": "Fuel",
+      "definition": "Substance that undergoes combustion",
+      "analogy": "The food that fire eats"
+    },
+    {
+      "term": "Calorific value",
+      "definition": "Amount of heat produced when 1 kg of fuel burns completely",
+      "analogy": "Fuel efficiency rating — higher = more energy per kg"
+    }
+  ],
+  "related": [
+    "coal-petroleum",
+    "materials-metals-nonmetals"
+  ],
+  "chapterSummary": {
+    "overview": "Combustion is a chemical reaction in which a substance burns in oxygen, releasing heat and light. This chapter covers the fire triangle, types of combustion (complete vs incomplete), flame structure, fuel efficiency, and fire safety including how fire extinguishers work.",
+    "keyPoints": [
+      "Fire needs fuel + oxygen + ignition temperature — remove any one to extinguish fire.",
+      "Complete combustion (plenty of O₂) → blue flame, CO₂ + H₂O, maximum energy.",
+      "Incomplete combustion (limited O₂) → yellow sooty flame, CO (poisonous) + carbon soot.",
+      "Candle flame has three zones: dark inner, luminous yellow, non-luminous blue outer.",
+      "Different fuels have different calorific values; LPG and CNG are cleaner than coal or wood."
+    ],
+    "examFocus": "Draw and label flame zones. Compare complete vs incomplete combustion. Explain why CO is dangerous."
+  }
+}

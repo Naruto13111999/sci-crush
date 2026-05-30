@@ -1,0 +1,342 @@
+{
+  "id": "coal-petroleum",
+  "classId": "8",
+  "name": "Coal and Petroleum",
+  "subject": "chemistry",
+  "icon": "🛢️",
+  "summary": "Fossil fuels formed over millions of years from dead organisms. Coal, petroleum, natural gas — and why we must conserve them.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "⏳",
+      "title": "Fossil fuels = ancient energy",
+      "text": "Coal, petroleum, natural gas formed from dead plants/animals buried under heat & pressure for millions of years."
+    },
+    {
+      "emoji": "🪨",
+      "title": "Coal types",
+      "text": "Peat → Lignite → Bituminous → Anthracite. More carbon = more energy as you go up."
+    },
+    {
+      "emoji": "🛢️",
+      "title": "Petroleum = crude oil",
+      "text": "Dark viscous liquid. Refineries separate it into petrol, diesel, kerosene, LPG by fractional distillation."
+    },
+    {
+      "emoji": "🔥",
+      "title": "Burning hydrocarbons",
+      "text": "CH₄ + 2O₂ → CO₂ + 2H₂O + energy. Fossil fuels are mainly carbon & hydrogen compounds."
+    },
+    {
+      "emoji": "♻️",
+      "title": "Non-renewable — conserve!",
+      "text": "Takes millions of years to form, seconds to burn. Use judiciously, explore solar/wind alternatives."
+    }
+  ],
+  "sections": [
+    {
+      "id": "fossil-fuels",
+      "title": "Three Fossil Fuels",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Coal",
+          "detail": "Solid. Formed from dead plant matter in swamps. Used in power plants & steel industry",
+          "icon": "🪨",
+          "highlight": true
+        },
+        {
+          "label": "Petroleum",
+          "detail": "Liquid. Formed from marine microorganisms. Refined into fuels & plastics",
+          "icon": "🛢️",
+          "highlight": true
+        },
+        {
+          "label": "Natural gas",
+          "detail": "Gaseous. Mainly methane (CH₄). Stored under high pressure as CNG",
+          "icon": "💨",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "coal-types",
+      "title": "Types of Coal (increasing carbon content)",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Peat",
+          "detail": "First stage — least carbon, most moisture",
+          "icon": "1️⃣"
+        },
+        {
+          "label": "Lignite",
+          "detail": "Brown coal — low heat value",
+          "icon": "2️⃣"
+        },
+        {
+          "label": "Bituminous",
+          "detail": "Most commonly used — good heat value",
+          "icon": "3️⃣",
+          "highlight": true
+        },
+        {
+          "label": "Anthracite",
+          "detail": "Highest carbon content — best quality coal",
+          "icon": "4️⃣"
+        }
+      ]
+    }
+  ],
+  "demos": [
+    {
+      "id": "methane-combustion",
+      "title": "Combustion of Methane (Natural Gas)",
+      "type": "reaction",
+      "description": "Methane burns completely in oxygen — main reaction when you use LPG/CNG stove.",
+      "equation": "CH₄ + 2O₂ → CO₂ + 2H₂O + Energy",
+      "conditions": "Ignition + plenty of O₂",
+      "effect": "heat",
+      "reactants": [
+        {
+          "symbol": "CH₄",
+          "name": "Methane",
+          "color": "#94A3B8",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#FDE68A"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "CO₂",
+          "name": "Carbon dioxide",
+          "color": "#64748B",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#94A3B8"
+        },
+        {
+          "symbol": "H₂O",
+          "name": "Water vapour",
+          "color": "#3B82F6",
+          "state": "gas",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Gas released",
+          "description": "Methane flows from LPG/CNG supply to burner",
+          "visual": "mix"
+        },
+        {
+          "label": "Spark/ignition",
+          "description": "Lighter or spark ignites the gas-air mixture",
+          "visual": "heat"
+        },
+        {
+          "label": "Blue flame",
+          "description": "Complete combustion — clean blue flame on stove",
+          "visual": "react"
+        },
+        {
+          "label": "Products",
+          "description": "CO₂ and water vapour released — energy heats your food",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "petroleum-combustion",
+      "title": "Burning a Hydrocarbon (Petrol)",
+      "type": "reaction",
+      "description": "Petrol (a mix of hydrocarbons) burns in car engines to release energy.",
+      "equation": "2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O + Energy",
+      "conditions": "Spark plug ignition",
+      "effect": "heat",
+      "reactants": [
+        {
+          "symbol": "C₈H₁₈",
+          "name": "Octane (petrol)",
+          "color": "#FBBF24",
+          "state": "liquid",
+          "kind": "liquid"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen (air)",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "CO₂",
+          "name": "Carbon dioxide",
+          "color": "#64748B",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#94A3B8"
+        },
+        {
+          "symbol": "H₂O",
+          "name": "Water vapour",
+          "color": "#3B82F6",
+          "state": "gas",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Fuel injected",
+          "description": "Petrol vapour mixed with air in engine cylinder",
+          "visual": "mix"
+        },
+        {
+          "label": "Spark ignites",
+          "description": "Spark plug creates ignition at exact moment",
+          "visual": "heat"
+        },
+        {
+          "label": "Explosion",
+          "description": "Rapid combustion pushes piston — engine power!",
+          "visual": "react"
+        },
+        {
+          "label": "Exhaust",
+          "description": "CO₂ and H₂O exit through exhaust pipe",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    }
+  ],
+  "flows": [
+    {
+      "id": "coal-formation",
+      "title": "How Coal Formed Over Millions of Years",
+      "description": "From ancient swamp plants to the coal we mine today.",
+      "steps": [
+        {
+          "label": "300 mya",
+          "action": "Dense swamps",
+          "description": "Huge forests of ferns & trees grow in warm, wet swamps.",
+          "icon": "🌿"
+        },
+        {
+          "label": "Burial",
+          "action": "Plants die & sink",
+          "description": "Dead plants pile up, buried under mud and sand.",
+          "icon": "🪨"
+        },
+        {
+          "label": "Pressure + heat",
+          "action": "Millions of years",
+          "description": "Layers compress the plant matter; heat drives out moisture & gases.",
+          "icon": "⏳"
+        },
+        {
+          "label": "Coal forms",
+          "action": "Carbon concentrated",
+          "description": "Plant material transforms into peat → lignite → bituminous → anthracite.",
+          "icon": "⚫"
+        },
+        {
+          "label": "Mining",
+          "action": "Humans extract coal",
+          "description": "Coal mined from underground — burned for electricity & industry.",
+          "icon": "⛏️"
+        }
+      ]
+    },
+    {
+      "id": "fractional-distillation",
+      "title": "Fractional Distillation of Petroleum",
+      "description": "Crude oil heated in a fractionating column separates into useful fractions by boiling point.",
+      "steps": [
+        {
+          "label": "Crude oil",
+          "action": "Heated to ~400°C",
+          "description": "Thick crude oil vapourised in a furnace at the base of the column.",
+          "icon": "🛢️"
+        },
+        {
+          "label": "Column",
+          "action": "Vapours rise",
+          "description": "Column gets cooler towards the top. Different hydrocarbons condense at different heights.",
+          "icon": "🏭"
+        },
+        {
+          "label": "Top fractions",
+          "action": "LPG, petrol condense",
+          "description": "Small molecules (low boiling point) condense near the top — petrol, LPG.",
+          "icon": "⬆️"
+        },
+        {
+          "label": "Middle",
+          "action": "Kerosene, diesel",
+          "description": "Medium-sized molecules condense in the middle sections.",
+          "icon": "↕️"
+        },
+        {
+          "label": "Bottom",
+          "action": "Lubricating oil, bitumen",
+          "description": "Large molecules (high boiling point) collected at the bottom.",
+          "icon": "⬇️"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fossil fuel",
+      "definition": "Fuel formed from remains of dead organisms over geological time",
+      "analogy": "Ancient sunlight stored in chemical bonds"
+    },
+    {
+      "term": "Fractional distillation",
+      "definition": "Separating mixture components by different boiling points",
+      "analogy": "Sorting passengers by height at different floor levels"
+    },
+    {
+      "term": "Hydrocarbon",
+      "definition": "Compound of hydrogen and carbon only",
+      "analogy": "The building blocks of all fossil fuels"
+    },
+    {
+      "term": "CNG",
+      "definition": "Compressed Natural Gas — mainly methane, stored at high pressure",
+      "analogy": "Natural gas squeezed into a cylinder for vehicles"
+    }
+  ],
+  "related": [
+    "combustion-flame",
+    "synthetic-fibres-plastics",
+    "pollution-air-water"
+  ],
+  "chapterSummary": {
+    "overview": "Coal and petroleum are fossil fuels formed over millions of years from dead organisms. This chapter explains their formation, types of coal, refining of petroleum into useful fractions, natural gas, and why we must use these resources judiciously.",
+    "keyPoints": [
+      "Coal forms from buried plant matter under heat and pressure over 300 million years.",
+      "Types: peat → lignite → bituminous → anthracite (increasing carbon content).",
+      "Petroleum is refined by fractional distillation into LPG, petrol, kerosene, diesel, lubricants.",
+      "Coal tar gives dyes, drugs, explosives; coke is used in steel manufacture.",
+      "Fossil fuels are non-renewable; burning them causes air pollution and global warming."
+    ],
+    "examFocus": "Describe formation of coal and petroleum. List petroleum fractions and uses. Explain why fossil fuels must be conserved."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "8",
+  "grade": 8,
+  "name": "Class 8 Science",
+  "tagline": "Foundation year — cells, forces, and the world around you",
+  "description": "NCERT-aligned science for Class 8, crushed into bite-sized visuals. Master crop production, microorganisms, metals, combustion, cells, reproduction, forces, sound, light, and more — with flow diagrams that make complex ideas click instantly.",
+  "icon": "🔬",
+  "color": "#6366F1",
+  "subjects": [
+    {"id": "biology", "label": "Biology", "icon": "🌿", "color": "#10B981"},
+    {"id": "chemistry", "label": "Chemistry", "icon": "⚗️", "color": "#F59E0B"},
+    {"id": "physics", "label": "Physics", "icon": "⚡", "color": "#3B82F6"}
+  ],
+  "chapters": []
+}

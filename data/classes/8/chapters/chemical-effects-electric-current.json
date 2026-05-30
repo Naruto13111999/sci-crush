@@ -1,0 +1,338 @@
+{
+  "id": "chemical-effects-electric-current",
+  "classId": "8",
+  "name": "Chemical Effects of Electric Current",
+  "subject": "chemistry",
+  "icon": "⚡",
+  "summary": "Electric current through liquids causes chemical changes — electrolysis, electroplating, and why some liquids conduct but others don't.",
+  "readTime": "9 min",
+  "crushed": [
+    {
+      "emoji": "💧",
+      "title": "Conductors vs insulators",
+      "text": "Liquids with ions conduct (salt water, acid). Pure water, sugar water, alcohol don't — no free ions."
+    },
+    {
+      "emoji": "⚡",
+      "title": "Electrolysis = chemical change by electricity",
+      "text": "Pass current through a solution → decomposition at electrodes. Cations → cathode, anions → anode."
+    },
+    {
+      "emoji": "🔋",
+      "title": "Electroplating",
+      "text": "Coat metal with another metal using electrolysis. Chromium on taps, gold on jewellery."
+    },
+    {
+      "emoji": "💨",
+      "title": "Water electrolysis",
+      "text": "2H₂O → 2H₂ (cathode) + O₂ (anode). Proves water is H + O."
+    },
+    {
+      "emoji": "🧪",
+      "title": "LED tester",
+      "text": "Weak current through liquid lights LED if ions present — quick conductivity test."
+    }
+  ],
+  "sections": [
+    {
+      "id": "conductors",
+      "title": "Which Liquids Conduct?",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Salt water",
+          "detail": "Na⁺ and Cl⁻ ions — good conductor ✅",
+          "icon": "🧂",
+          "highlight": true
+        },
+        {
+          "label": "Acid/base solutions",
+          "detail": "H⁺ or OH⁻ ions — conduct ✅",
+          "icon": "🧪",
+          "highlight": true
+        },
+        {
+          "label": "Distilled water",
+          "detail": "Almost no ions — poor conductor ❌",
+          "icon": "💧"
+        },
+        {
+          "label": "Sugar/alcohol water",
+          "detail": "No ions formed — do NOT conduct ❌",
+          "icon": "🍬"
+        }
+      ]
+    },
+    {
+      "id": "electrodes",
+      "title": "Electrodes in Electrolysis",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Anode (+)",
+          "detail": "Connected to positive terminal. Anions migrate here and lose electrons (oxidation)",
+          "icon": "➕",
+          "highlight": true
+        },
+        {
+          "label": "Cathode (−)",
+          "detail": "Connected to negative terminal. Cations migrate here and gain electrons (reduction)",
+          "icon": "➖",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "demos": [
+    {
+      "id": "water-electrolysis",
+      "title": "Electrolysis of Water",
+      "type": "reaction",
+      "description": "Passing current through acidified water splits it into hydrogen and oxygen gases.",
+      "equation": "2H₂O → 2H₂↑ + O₂↑",
+      "conditions": "DC current + acidified water",
+      "effect": "gas",
+      "reactants": [
+        {
+          "symbol": "H₂O",
+          "name": "Water",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "H₂",
+          "name": "Hydrogen (cathode)",
+          "color": "#E2E8F0",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#E0F2FE"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen (anode)",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Lab setup",
+          "description": "Wide view: battery, wires, and beaker of acidified water on the bench.",
+          "visual": "mix"
+        },
+        {
+          "label": "Current flows",
+          "description": "Electrons move through the circuit — current reaches both electrodes.",
+          "visual": "electric"
+        },
+        {
+          "label": "Cathode bubbles",
+          "description": "Zoom into beaker: H₂ gas bubbles rise from the negative electrode.",
+          "visual": "react"
+        },
+        {
+          "label": "Anode bubbles",
+          "description": "O₂ bubbles at the positive electrode — water is splitting.",
+          "visual": "product"
+        }
+      ],
+      "scene": "electrolysis"
+    },
+    {
+      "id": "cuso4-electrolysis",
+      "title": "Electrolysis of Copper Sulphate",
+      "type": "reaction",
+      "description": "Copper ions migrate to cathode and deposit as pure copper metal.",
+      "equation": "CuSO₄ → Cu (cathode) + deposit",
+      "conditions": "DC current + CuSO₄ solution",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "Cu²⁺",
+          "name": "Copper ions",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#2563EB"
+        },
+        {
+          "symbol": "SO₄²⁻",
+          "name": "Sulphate ions",
+          "color": "#94A3B8",
+          "state": "liquid",
+          "kind": "liquid"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "Cu",
+          "name": "Copper metal",
+          "color": "#B45309",
+          "state": "solid",
+          "kind": "metal"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Blue solution",
+          "description": "Blue CuSO₄ solution with two electrodes",
+          "visual": "mix"
+        },
+        {
+          "label": "Current on",
+          "description": "Cu²⁺ ions move toward cathode (−)",
+          "visual": "electric"
+        },
+        {
+          "label": "Copper deposits",
+          "description": "Red-brown copper coats the cathode surface",
+          "visual": "displace"
+        },
+        {
+          "label": "Blue fades",
+          "description": "Solution colour fades as Cu²⁺ is used up",
+          "visual": "product"
+        }
+      ],
+      "scene": "electrolysis"
+    },
+    {
+      "id": "electroplating",
+      "title": "Electroplating with Chromium",
+      "type": "reaction",
+      "description": "Object to be plated is cathode; chromium anode dissolves and deposits on it.",
+      "equation": "Cr³⁺ + 3e⁻ → Cr (on object)",
+      "conditions": "DC current + chromic acid bath",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "Cr³⁺",
+          "name": "Chromium ions",
+          "color": "#71717A",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#A1A1AA"
+        },
+        {
+          "symbol": "Object",
+          "name": "Iron tap (cathode)",
+          "color": "#71717A",
+          "state": "solid"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "Cr",
+          "name": "Chromium coating",
+          "color": "#C0C0C0",
+          "state": "solid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Clean object",
+          "description": "Iron tap cleaned and placed as cathode in bath",
+          "visual": "mix"
+        },
+        {
+          "label": "Current flows",
+          "description": "Cr³⁺ ions in solution migrate to cathode",
+          "visual": "electric"
+        },
+        {
+          "label": "Deposition",
+          "description": "Thin chromium layer deposits on the object",
+          "visual": "react"
+        },
+        {
+          "label": "Shiny finish",
+          "description": "Corrosion-resistant shiny chrome coating complete",
+          "visual": "product"
+        }
+      ],
+      "scene": "electrolysis"
+    }
+  ],
+  "flows": [
+    {
+      "id": "electrolysis-process",
+      "title": "What Happens During Electrolysis",
+      "description": "Follow ions from solution to electrode and see what forms.",
+      "steps": [
+        {
+          "label": "Power on",
+          "action": "DC current applied",
+          "description": "Battery connected — anode (+) and cathode (−) in electrolyte.",
+          "icon": "🔋"
+        },
+        {
+          "label": "Ion migration",
+          "action": "Ions move",
+          "description": "Cations (+) → cathode. Anions (−) → anode.",
+          "icon": "↔️"
+        },
+        {
+          "label": "Cathode",
+          "action": "Reduction",
+          "description": "Cations gain electrons at cathode — metal deposits or H₂ released.",
+          "icon": "➖"
+        },
+        {
+          "label": "Anode",
+          "action": "Oxidation",
+          "description": "Anions lose electrons at anode — O₂ released or anode dissolves.",
+          "icon": "➕"
+        },
+        {
+          "label": "Result",
+          "action": "Chemical change",
+          "description": "Substance decomposed — new products at each electrode.",
+          "icon": "✅"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Electrolyte",
+      "definition": "Liquid that conducts electricity due to presence of ions",
+      "analogy": "A highway for charged particles"
+    },
+    {
+      "term": "Electrolysis",
+      "definition": "Decomposition of electrolyte by passing electric current",
+      "analogy": "Using electricity as scissors to cut molecules apart"
+    },
+    {
+      "term": "Electroplating",
+      "definition": "Coating one metal with another using electrolysis",
+      "analogy": "Painting with metal atoms instead of paint"
+    },
+    {
+      "term": "Anode",
+      "definition": "Positive electrode where oxidation occurs",
+      "analogy": "The exit door for electrons leaving the solution"
+    }
+  ],
+  "related": [
+    "materials-metals-nonmetals",
+    "electricity"
+  ],
+  "chapterSummary": {
+    "overview": "Electric current can cause chemical changes — this is the basis of electroplating, extraction of metals, and electrolysis of water. This chapter covers conductors vs insulators, circuits, heating and magnetic effects of current, and practical applications like water purification.",
+    "keyPoints": [
+      "Liquids conduct if they contain ions — acids, bases, salts; distilled water is a poor conductor.",
+      "Electrolysis: passing current through a liquid decomposes it (water → H₂ + O₂).",
+      "Electroplating coats one metal with another using electric current (chromium on taps).",
+      "LED glows in one direction only — detects current direction in a circuit.",
+      "Fuses and MCBs protect against overloading; short circuits cause fires."
+    ],
+    "examFocus": "Explain electroplating process. Draw electrolysis of water. List good vs poor conductors."
+  }
+}

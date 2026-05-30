@@ -1,0 +1,311 @@
+{
+  "id": "stars-solar-system",
+  "classId": "8",
+  "name": "Stars and the Solar System",
+  "subject": "physics",
+  "icon": "🌌",
+  "summary": "The Sun, planets, moons, asteroids, comets — our cosmic neighbourhood and how celestial objects move.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "☀️",
+      "title": "Sun = nearest star",
+      "text": "A ball of hot plasma. Provides light & heat. 8 planets orbit it in elliptical paths."
+    },
+    {
+      "emoji": "🪐",
+      "title": "8 planets in order",
+      "text": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. My Very Educated Mother Just Served Us Nuts."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Earth is special",
+      "text": "Right distance from Sun for liquid water. One moon. Life exists here."
+    },
+    {
+      "emoji": "☄️",
+      "title": "Small bodies",
+      "text": "Asteroids (rocky, Mars-Jupiter belt), Comets (icy, long elliptical orbits with tails), Meteors (shooting stars)."
+    },
+    {
+      "emoji": "🌙",
+      "title": "Moon phases",
+      "text": "Moon doesn't make light — reflects sunlight. New → crescent → full → crescent → new (29.5 days)."
+    }
+  ],
+  "sections": [
+    {
+      "id": "planets",
+      "title": "The 8 Planets",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Mercury",
+          "detail": "Closest to Sun. Smallest. No atmosphere. Extreme temperatures",
+          "icon": "☿️"
+        },
+        {
+          "label": "Venus",
+          "detail": "Hottest planet. Thick CO₂ atmosphere. Brightest in night sky",
+          "icon": "♀️"
+        },
+        {
+          "label": "Earth",
+          "detail": "Only planet with life. 71% water. One moon",
+          "icon": "🌍",
+          "highlight": true
+        },
+        {
+          "label": "Mars",
+          "detail": "Red planet. Two moons. Evidence of ancient water",
+          "icon": "♂️"
+        },
+        {
+          "label": "Jupiter",
+          "detail": "Largest planet. Great Red Spot storm. 80+ moons",
+          "icon": "♃",
+          "highlight": true
+        },
+        {
+          "label": "Saturn",
+          "detail": "Famous rings of ice & rock. Least dense — would float in water",
+          "icon": "♄",
+          "highlight": true
+        },
+        {
+          "label": "Uranus",
+          "detail": "Rotates on its side. Pale blue-green colour",
+          "icon": "♅"
+        },
+        {
+          "label": "Neptune",
+          "detail": "Farthest planet. Strongest winds in solar system",
+          "icon": "♆"
+        }
+      ]
+    },
+    {
+      "id": "inner-vs-outer",
+      "title": "Inner vs Outer Planets",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Inner (terrestrial)",
+          "detail": "Mercury, Venus, Earth, Mars — rocky, small, close to Sun",
+          "icon": "🪨",
+          "highlight": true
+        },
+        {
+          "label": "Outer (gas giants)",
+          "detail": "Jupiter, Saturn, Uranus, Neptune — gaseous, large, far from Sun",
+          "icon": "💨",
+          "highlight": true
+        },
+        {
+          "label": "Asteroid belt",
+          "detail": "Between Mars and Jupiter — thousands of rocky asteroids",
+          "icon": "☄️"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Asteroids vs Comets vs Meteors",
+      "left": {
+        "label": "Asteroids",
+        "points": [
+          "Rocky/metallic",
+          "Orbit between Mars & Jupiter",
+          "No tail",
+          "Example: Ceres"
+        ]
+      },
+      "right": {
+        "label": "Comets & Meteors",
+        "points": [
+          "Comets: icy, long orbit, glowing tail near Sun",
+          "Meteors: space rock burning in atmosphere",
+          "Meteorite: survives to ground",
+          "Shooting star = meteor"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "moon-phases",
+      "title": "Why the Moon Changes Shape",
+      "description": "We see different fractions of the sunlit half as the Moon orbits Earth.",
+      "steps": [
+        {
+          "label": "New Moon",
+          "action": "Sunlit side faces away",
+          "description": "Moon between Earth and Sun — dark side faces us.",
+          "icon": "🌑"
+        },
+        {
+          "label": "Waxing crescent",
+          "action": "Thin sliver appears",
+          "description": "Moon moves — small sunlit portion visible on right.",
+          "icon": "🌒"
+        },
+        {
+          "label": "First quarter",
+          "action": "Half moon",
+          "description": "Right half illuminated — 7 days after new moon.",
+          "icon": "🌓"
+        },
+        {
+          "label": "Full Moon",
+          "action": "Fully lit",
+          "description": "Earth between Sun and Moon — entire face illuminated.",
+          "icon": "🌕"
+        },
+        {
+          "label": "Waning",
+          "action": "Reverse cycle",
+          "description": "Lit portion shrinks back to new moon — 29.5 day cycle complete.",
+          "icon": "🌘"
+        }
+      ]
+    },
+    {
+      "id": "solar-system",
+      "title": "How Planets Orbit the Sun",
+      "description": "All planets orbit the Sun in the same direction, on nearly flat planes.",
+      "steps": [
+        {
+          "label": "Sun",
+          "action": "Central star",
+          "description": "Sun's gravity holds entire solar system together.",
+          "icon": "☀️"
+        },
+        {
+          "label": "Inner planets",
+          "action": "Fast, small orbits",
+          "description": "Mercury to Mars — rocky, close, orbit in months/years.",
+          "icon": "🪨"
+        },
+        {
+          "label": "Asteroid belt",
+          "action": "Rocky debris",
+          "description": "Between Mars and Jupiter — leftover building blocks.",
+          "icon": "☄️"
+        },
+        {
+          "label": "Gas giants",
+          "action": "Slow, huge orbits",
+          "description": "Jupiter to Neptune — massive, take decades to orbit.",
+          "icon": "🪐"
+        },
+        {
+          "label": "Gravity",
+          "action": "Keeps everything bound",
+          "description": "Sun's gravitational pull balances planets' tendency to fly straight.",
+          "icon": "🔄"
+        }
+      ]
+    },
+    {
+      "id": "comet-orbit",
+      "title": "A Comet's Journey",
+      "description": "Comets develop tails only when they approach the Sun.",
+      "steps": [
+        {
+          "label": "Far from Sun",
+          "action": "Frozen ice ball",
+          "description": "Comet in outer solar system — dormant, no tail.",
+          "icon": "🧊"
+        },
+        {
+          "label": "Approaches Sun",
+          "action": "Heat increases",
+          "description": "Elliptical orbit brings comet closer to Sun.",
+          "icon": "☀️"
+        },
+        {
+          "label": "Sublimation",
+          "action": "Ice → gas",
+          "description": "Ices vaporise directly — gas and dust released.",
+          "icon": "💨"
+        },
+        {
+          "label": "Tail forms",
+          "action": "Pushed by solar wind",
+          "description": "Two tails: dust (curved) and ion (straight away from Sun).",
+          "icon": "☄️"
+        },
+        {
+          "label": "Returns",
+          "action": "Back to outer space",
+          "description": "Comet cools again — tail disappears until next orbit.",
+          "icon": "🔄"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Solar system",
+      "definition": "The Sun and all objects gravitationally bound to it",
+      "analogy": "The Sun's family of planets and space rocks"
+    },
+    {
+      "term": "Constellation",
+      "definition": "Group of stars forming a recognisable pattern",
+      "analogy": "Dot-to-dot pictures in the night sky — Orion, Ursa Major"
+    },
+    {
+      "term": "Light year",
+      "definition": "Distance light travels in one year (~9.46 trillion km)",
+      "analogy": "Cosmic measuring tape for distances between stars"
+    },
+    {
+      "term": "Satellite (moon)",
+      "definition": "Object that orbits a planet",
+      "analogy": "A planet's loyal follower in orbit"
+    }
+  ],
+  "related": [
+    "light",
+    "natural-phenomena",
+    "force-pressure"
+  ],
+  "demos": [
+    {
+      "id": "moon-phases-demo",
+      "title": "Moon Phases — Sunlit Half Always",
+      "description": "As the Moon orbits Earth, we see different fractions of its sunlit side.",
+      "scene": "moon-phases",
+      "steps": [
+        {
+          "label": "New moon",
+          "description": "Moon between Earth and Sun — dark side faces us.",
+          "visual": "mix"
+        },
+        {
+          "label": "Waxing phases",
+          "description": "Moon moves — we see a growing crescent then half-moon.",
+          "visual": "react"
+        },
+        {
+          "label": "Full moon",
+          "description": "Earth between Sun and Moon — entire sunlit face visible.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "The night sky holds stars, constellations, planets, moons, and other celestial bodies. This chapter covers the solar system, phases of the moon, eclipses, meteors and comets, artificial satellites, and how ancient and modern astronomers studied the heavens.",
+    "keyPoints": [
+      "Solar system: Sun + 8 planets, dwarf planets, asteroids, comets, meteors.",
+      "Planets revolve around the Sun; moons revolve around planets; all held by gravity.",
+      "Moon phases caused by how much of the sunlit half we see as it orbits Earth.",
+      "Solar eclipse: Moon blocks Sun; Lunar eclipse: Earth blocks sunlight to Moon.",
+      "Pole Star indicates north; constellations like Orion and Ursa Major help navigation."
+    ],
+    "examFocus": "Explain moon phases with diagrams. Differentiate solar vs lunar eclipse. Name planets in order from the Sun."
+  }
+}

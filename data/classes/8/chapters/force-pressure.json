@@ -1,0 +1,217 @@
+{
+  "id": "force-pressure",
+  "classId": "8",
+  "name": "Force and Pressure",
+  "subject": "physics",
+  "icon": "💪",
+  "summary": "Force changes motion. Pressure is force spread over area. Nail vs sand — same idea, different feel.",
+  "readTime": "7 min",
+  "crushed": [
+    {
+      "emoji": "👊",
+      "title": "Force = push or pull",
+      "text": "Measured in newtons (N). Can start motion, stop motion, or change direction/shape."
+    },
+    {
+      "emoji": "➡️",
+      "title": "Force has direction",
+      "text": "It's a vector — 10 N east ≠ 10 N north. Add forces using arrows."
+    },
+    {
+      "emoji": "📐",
+      "title": "Pressure = Force ÷ Area",
+      "text": "P = F/A. Same force on smaller area = higher pressure. That's why needles pierce and camels have wide feet."
+    },
+    {
+      "emoji": "🌊",
+      "title": "Liquids & gases exert pressure",
+      "text": "Pressure acts equally in all directions in fluids. Deeper = more pressure (more weight of fluid above)."
+    },
+    {
+      "emoji": "🎈",
+      "title": "Atmospheric pressure",
+      "text": "Air column above you pushes ~101,325 Pa (1 atm). We don't feel it because it's balanced inside our body."
+    }
+  ],
+  "sections": [
+    {
+      "id": "types-of-force",
+      "title": "Common Forces You Meet Daily",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Muscular force",
+          "detail": "Muscles push/pull — walking, lifting",
+          "icon": "💪"
+        },
+        {
+          "label": "Friction",
+          "detail": "Opposes motion between surfaces in contact",
+          "icon": "🛑"
+        },
+        {
+          "label": "Gravitational force",
+          "detail": "Earth pulls objects toward its center",
+          "icon": "🌍"
+        },
+        {
+          "label": "Magnetic force",
+          "detail": "Magnets attract or repel",
+          "icon": "🧲"
+        },
+        {
+          "label": "Electrostatic force",
+          "detail": "Charged objects attract or repel",
+          "icon": "⚡"
+        }
+      ]
+    },
+    {
+      "id": "pressure-examples",
+      "title": "Pressure in Real Life",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Sharp knife",
+          "detail": "Thin edge → small area → high pressure → easy cutting",
+          "icon": "🔪",
+          "highlight": true
+        },
+        {
+          "label": "Camel feet",
+          "detail": "Wide pads → large area → low pressure → won't sink in sand",
+          "icon": "🐫"
+        },
+        {
+          "label": "School bag straps",
+          "detail": "Wide straps → lower pressure on shoulders",
+          "icon": "🎒"
+        },
+        {
+          "label": "Deep sea diving",
+          "detail": "Water pressure increases ~1 atm every 10 m depth",
+          "icon": "🤿"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "pressure-demo",
+      "title": "Why a Nail Pierces Wood but Your Finger Doesn't",
+      "description": "Same force, different area — watch pressure change the outcome.",
+      "steps": [
+        {
+          "label": "You",
+          "action": "Apply 50 N downward",
+          "description": "You push with the same force in both cases.",
+          "icon": "👆"
+        },
+        {
+          "label": "Finger",
+          "action": "Area ≈ 2 cm²",
+          "description": "Pressure = 50/2 = 25 N/cm² — not enough to pierce wood.",
+          "icon": "✋"
+        },
+        {
+          "label": "Nail tip",
+          "action": "Area ≈ 0.01 cm²",
+          "description": "Pressure = 50/0.01 = 5000 N/cm² — wood fibers break apart.",
+          "icon": "📌"
+        },
+        {
+          "label": "Wood",
+          "action": "Yields at nail point",
+          "description": "High pressure exceeds wood's strength locally.",
+          "icon": "🪵"
+        },
+        {
+          "label": "Result",
+          "action": "Nail enters wood",
+          "description": "Pressure, not just force, determines whether something penetrates.",
+          "icon": "✅"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Force",
+      "definition": "Push or pull that can change an object's state of motion or shape",
+      "analogy": "A nudge on a shopping cart"
+    },
+    {
+      "term": "Pressure",
+      "definition": "Force acting per unit area (P = F/A)",
+      "analogy": "Stiletto heel vs flat shoe on soft ground"
+    },
+    {
+      "term": "Pascal (Pa)",
+      "definition": "SI unit of pressure — 1 N per m²",
+      "analogy": "One newton spread over a postage stamp-sized area"
+    }
+  ],
+  "related": [
+    "friction",
+    "sound"
+  ],
+  "demos": [
+    {
+      "id": "nail-pressure-demo",
+      "title": "Nail vs Finger — Same Force, Different Pressure",
+      "description": "P = F/A — a nail's tiny tip creates huge pressure and pierces wood.",
+      "scene": "pressure",
+      "steps": [
+        {
+          "label": "Workshop view",
+          "description": "Wide shot of wood block on a workbench — finger and nail ready.",
+          "visual": "mix"
+        },
+        {
+          "label": "Same 50 N force",
+          "description": "Zoom in: identical force, but finger has large area, nail has tiny tip.",
+          "visual": "react"
+        },
+        {
+          "label": "Nail pierces wood",
+          "description": "High pressure (P = F/A) at the nail point splits wood fibres.",
+          "visual": "product"
+        }
+      ]
+    },
+    {
+      "id": "camel-sand-foot",
+      "title": "Camel Foot on Sand",
+      "description": "Wide padded feet spread weight — low pressure prevents sinking.",
+      "scene": "camel-pressure",
+      "steps": [
+        {
+          "label": "Camel steps",
+          "description": "Full body weight rests on four wide feet.",
+          "visual": "mix"
+        },
+        {
+          "label": "Weight spreads",
+          "description": "Large contact area divides force — pressure stays low.",
+          "visual": "react"
+        },
+        {
+          "label": "Walks on sand",
+          "description": "Low pressure means sand doesn't collapse — camel stays on top.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "A force is a push or pull that can change an object's motion or shape. Pressure is force per unit area (P = F/A). This chapter explains types of forces, atmospheric pressure, pressure in fluids, and everyday applications like sharp knives, camel feet, and syringes.",
+    "keyPoints": [
+      "Force is a vector quantity measured in newtons (N); it has both magnitude and direction.",
+      "Pressure = Force / Area — same force on smaller area gives higher pressure.",
+      "Atmospheric pressure ≈ 101,325 Pa; we don't feel it due to internal body pressure.",
+      "Liquids and gases exert pressure equally in all directions; pressure increases with depth.",
+      "Applications: wide straps on bags, pointed nails, hydraulic brakes, suction cups."
+    ],
+    "examFocus": "Calculate pressure given force and area. Explain why sharp knives cut better. Describe atmospheric pressure experiments."
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "id": "materials-metals-nonmetals",
+  "classId": "8",
+  "name": "Materials: Metals and Non-Metals",
+  "subject": "chemistry",
+  "icon": "⚙️",
+  "summary": "Metals shine, conduct, and malleate. Non-metals are dull insulators. Watch their reactions with oxygen, water, and acids.",
+  "readTime": "10 min",
+  "crushed": [
+    {
+      "emoji": "✨",
+      "title": "Metals = shiny conductors",
+      "text": "Lustrous, malleable, ductile, sonorous. Good heat & electricity conductors."
+    },
+    {
+      "emoji": "🪨",
+      "title": "Non-metals = opposite",
+      "text": "Dull, brittle (as solids), poor conductors. Exception: graphite conducts electricity."
+    },
+    {
+      "emoji": "🔥",
+      "title": "Metal + O₂ → Metal oxide",
+      "text": "Most metals form basic oxides on burning. Na/K stored in kerosene to prevent this."
+    },
+    {
+      "emoji": "🧪",
+      "title": "Metal + Acid → Salt + H₂",
+      "text": "Zinc + HCl → ZnCl₂ + H₂↑. Hydrogen pops with a lit splint."
+    },
+    {
+      "emoji": "🔄",
+      "title": "Displacement reaction",
+      "text": "More reactive metal displaces less reactive one from its salt solution. Zn displaces Cu from CuSO₄."
+    }
+  ],
+  "sections": [
+    {
+      "id": "properties",
+      "title": "Properties at a Glance",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Lustre",
+          "detail": "Metals: shiny. Non-metals: dull (except iodine)",
+          "icon": "✨"
+        },
+        {
+          "label": "Hardness",
+          "detail": "Metals: generally hard. Non-metals: soft (S) to hard (diamond)",
+          "icon": "💎"
+        },
+        {
+          "label": "Malleability",
+          "detail": "Metals: can be beaten into sheets. Non-metals: brittle",
+          "icon": "🔨",
+          "highlight": true
+        },
+        {
+          "label": "Conductivity",
+          "detail": "Metals: conduct heat & electricity. Non-metals: insulators (except graphite)",
+          "icon": "⚡",
+          "highlight": true
+        },
+        {
+          "label": "Sonority",
+          "detail": "Metals: ringing sound when struck. Non-metals: no",
+          "icon": "🔔"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Metals vs Non-Metals",
+      "left": {
+        "label": "Metals",
+        "points": [
+          "Shiny (lustrous)",
+          "Malleable & ductile",
+          "Good conductors",
+          "Form basic oxides",
+          "Lose electrons → cations"
+        ]
+      },
+      "right": {
+        "label": "Non-Metals",
+        "points": [
+          "Dull (mostly)",
+          "Brittle as solids",
+          "Poor conductors",
+          "Form acidic/neutral oxides",
+          "Gain electrons → anions"
+        ]
+      }
+    }
+  ],
+  "demos": [
+    {
+      "id": "metal-acid",
+      "title": "Zinc + Hydrochloric Acid",
+      "type": "reaction",
+      "description": "Zinc reacts with dilute HCl to produce hydrogen gas — the pop test confirms it.",
+      "equation": "Zn + 2HCl → ZnCl₂ + H₂↑",
+      "conditions": "Dilute HCl, room temp",
+      "effect": "gas",
+      "reactants": [
+        {
+          "symbol": "Zn",
+          "name": "Zinc",
+          "color": "#71717A",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "HCl",
+          "name": "Hydrochloric acid",
+          "color": "#FBBF24",
+          "state": "liquid",
+          "kind": "acid",
+          "beakerColor": "#FEF08A"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "ZnCl₂",
+          "name": "Zinc chloride",
+          "color": "#FFFFFF",
+          "state": "liquid",
+          "kind": "liquid"
+        },
+        {
+          "symbol": "H₂",
+          "name": "Hydrogen gas",
+          "color": "#E2E8F0",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#E0F2FE"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Add zinc",
+          "description": "Zinc granules dropped into dilute HCl in a test tube",
+          "visual": "mix"
+        },
+        {
+          "label": "Bubbles form",
+          "description": "Effervescence — H₂ gas bubbles rise rapidly",
+          "visual": "react"
+        },
+        {
+          "label": "Pop test",
+          "description": "Lit splint at mouth gives a characteristic 'pop' sound",
+          "visual": "product"
+        },
+        {
+          "label": "Salt solution",
+          "description": "Zinc chloride solution remains in the test tube",
+          "visual": "product"
+        }
+      ],
+      "scene": "beaker"
+    },
+    {
+      "id": "metal-oxygen",
+      "title": "Magnesium + Oxygen",
+      "type": "reaction",
+      "description": "Magnesium burns in air to form basic magnesium oxide.",
+      "equation": "2Mg + O₂ → 2MgO",
+      "conditions": "Heat",
+      "effect": "light",
+      "reactants": [
+        {
+          "symbol": "Mg",
+          "name": "Magnesium",
+          "color": "#C0C0C0",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen (air)",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "MgO",
+          "name": "Magnesium oxide (basic)",
+          "color": "#FFFFFF",
+          "state": "solid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Heat Mg ribbon",
+          "description": "Magnesium held in flame with tongs",
+          "visual": "heat"
+        },
+        {
+          "label": "Bright white flame",
+          "description": "Mg reacts vigorously with atmospheric O₂",
+          "visual": "spark"
+        },
+        {
+          "label": "Basic oxide",
+          "description": "MgO dissolves in water to form Mg(OH)₂ — turns red litmus blue",
+          "visual": "product"
+        }
+      ],
+      "scene": "combustion"
+    },
+    {
+      "id": "displacement",
+      "title": "Zinc Displaces Copper",
+      "type": "reaction",
+      "description": "Zinc (more reactive) kicks copper out of copper sulphate solution — blue colour fades.",
+      "equation": "Zn + CuSO₄ → ZnSO₄ + Cu",
+      "conditions": "Aqueous solution",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "Zn",
+          "name": "Zinc",
+          "color": "#71717A",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "CuSO₄",
+          "name": "Copper sulphate (blue)",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#2563EB"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "ZnSO₄",
+          "name": "Zinc sulphate (colourless)",
+          "color": "#E2E8F0",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#E2E8F0"
+        },
+        {
+          "symbol": "Cu",
+          "name": "Copper (red-brown)",
+          "color": "#B45309",
+          "state": "solid",
+          "kind": "metal"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Blue solution",
+          "description": "Blue CuSO₄ solution in a beaker",
+          "visual": "mix"
+        },
+        {
+          "label": "Add zinc strip",
+          "description": "Zinc strip dipped into blue solution",
+          "visual": "mix"
+        },
+        {
+          "label": "Colour fades",
+          "description": "Blue colour slowly disappears as Cu²⁺ is displaced",
+          "visual": "displace"
+        },
+        {
+          "label": "Red-brown deposit",
+          "description": "Copper metal deposits on the zinc strip surface",
+          "visual": "product"
+        }
+      ],
+      "scene": "displacement"
+    },
+    {
+      "id": "iron-rust",
+      "title": "Iron Rusting",
+      "type": "reaction",
+      "description": "Iron reacts with oxygen and moisture to form rust — a slow oxidation.",
+      "equation": "4Fe + 3O₂ + xH₂O → 2Fe₂O₃·xH₂O",
+      "conditions": "Moist air",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "Fe",
+          "name": "Iron",
+          "color": "#71717A",
+          "state": "solid",
+          "kind": "metal"
+        },
+        {
+          "symbol": "O₂",
+          "name": "Oxygen",
+          "color": "#87CEEB",
+          "state": "gas",
+          "kind": "gas",
+          "cloudColor": "#87CEEB"
+        },
+        {
+          "symbol": "H₂O",
+          "name": "Water",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "Fe₂O₃",
+          "name": "Rust",
+          "color": "#92400E",
+          "state": "solid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Moist air",
+          "description": "Iron exposed to both oxygen and water vapour",
+          "visual": "mix"
+        },
+        {
+          "label": "Slow reaction",
+          "description": "Oxidation happens gradually over days/weeks",
+          "visual": "react"
+        },
+        {
+          "label": "Red-brown rust",
+          "description": "Flaky red-brown coating forms on iron surface",
+          "visual": "product"
+        }
+      ],
+      "scene": "rust"
+    }
+  ],
+  "flows": [
+    {
+      "id": "reactivity-series",
+      "title": "Using Displacement to Compare Reactivity",
+      "description": "If metal A displaces metal B from its salt, A is more reactive than B.",
+      "steps": [
+        {
+          "label": "Setup",
+          "action": "Salt solution ready",
+          "description": "Prepare copper sulphate (blue) solution in a beaker.",
+          "icon": "🧪"
+        },
+        {
+          "label": "Add metal",
+          "action": "Drop in zinc strip",
+          "description": "Zinc is higher in reactivity series than copper.",
+          "icon": "⚙️"
+        },
+        {
+          "label": "Reaction",
+          "action": "Zn + CuSO₄ → ZnSO₄ + Cu",
+          "description": "Zinc takes sulphate, copper deposits as solid.",
+          "icon": "🔄"
+        },
+        {
+          "label": "Observe",
+          "action": "Blue → colourless",
+          "description": "Blue colour fades; red-brown copper coats the zinc.",
+          "icon": "👁️"
+        },
+        {
+          "label": "Conclusion",
+          "action": "Zn > Cu in reactivity",
+          "description": "More reactive metal always displaces less reactive one.",
+          "icon": "✅"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Malleability",
+      "definition": "Ability of metals to be beaten into thin sheets",
+      "analogy": "Flattening dough with a rolling pin"
+    },
+    {
+      "term": "Ductility",
+      "definition": "Ability of metals to be drawn into wires",
+      "analogy": "Stretching chewing gum into a long string"
+    },
+    {
+      "term": "Displacement reaction",
+      "definition": "More reactive element replaces less reactive one in a compound",
+      "analogy": "Stronger player takes the weaker one's spot on the team"
+    },
+    {
+      "term": "Amphoteric oxide",
+      "definition": "Oxide that reacts with both acids and bases (e.g. Al₂O₃)",
+      "analogy": "A diplomat who talks to both sides"
+    }
+  ],
+  "related": [
+    "combustion-flame",
+    "chemical-effects-electric-current"
+  ],
+  "chapterSummary": {
+    "overview": "Elements are broadly classified as metals or non-metals based on physical and chemical properties. This chapter explores lustre, conductivity, malleability, reactions with oxygen, water, and acids, displacement reactions, and everyday uses of metals and non-metals.",
+    "keyPoints": [
+      "Metals: lustrous, malleable, ductile, good conductors of heat and electricity.",
+      "Non-metals: dull, brittle, poor conductors (except graphite), form acidic oxides.",
+      "Metal + oxygen → metal oxide; reactive metals react with water and dilute acids producing H₂.",
+      "Displacement reaction: more reactive metal displaces less reactive metal from its salt solution.",
+      "Uses: iron (construction), aluminium (foil), copper (wires), sulphur and nitrogen in industry."
+    ],
+    "examFocus": "Compare metal vs non-metal properties. Write reaction of zinc with HCl. Explain displacement with an example."
+  }
+}

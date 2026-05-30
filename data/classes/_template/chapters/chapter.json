@@ -1,0 +1,39 @@
+{
+  "id": "my-chapter",
+  "classId": "8",
+  "name": "Chapter Title",
+  "subject": "biology",
+  "icon": "📖",
+  "summary": "One-line summary of what this chapter covers.",
+  "readTime": "5 min",
+  "crushed": [
+    {"emoji": "💡", "title": "Key point 1", "text": "Explain the main idea in plain language."},
+    {"emoji": "🔑", "title": "Key point 2", "text": "Another crushed takeaway."}
+  ],
+  "sections": [
+    {
+      "id": "main",
+      "title": "Main Section",
+      "intro": "Optional intro text.",
+      "visualType": "grid",
+      "items": [
+        {"label": "Item 1", "detail": "Description", "icon": "📌"}
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "example-flow",
+      "title": "Example Process Flow",
+      "description": "Describe what this flow diagram shows.",
+      "steps": [
+        {"label": "Step 1", "action": "Does something", "description": "Explain what happens.", "icon": "1️⃣"},
+        {"label": "Step 2", "action": "Next step", "description": "Continue the process.", "icon": "2️⃣"}
+      ]
+    }
+  ],
+  "keyTerms": [
+    {"term": "Term", "definition": "Definition", "analogy": "Simple analogy"}
+  ],
+  "related": []
+}

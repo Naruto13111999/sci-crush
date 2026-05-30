@@ -1,0 +1,234 @@
+{
+  "id": "reproduction-animals",
+  "classId": "8",
+  "name": "Reproduction in Animals",
+  "subject": "biology",
+  "icon": "🐣",
+  "summary": "Sexual vs asexual reproduction. Male and female reproductive systems. Fertilisation, embryo development, and metamorphosis.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "👫",
+      "title": "Sexual = two parents",
+      "text": "Sperm (male) + Egg (female) fuse → zygote → embryo → baby. More variation."
+    },
+    {
+      "emoji": "🔄",
+      "title": "Asexual = one parent",
+      "text": "No gametes. Budding (hydra), binary fission (amoeba). Identical offspring."
+    },
+    {
+      "emoji": "🥚",
+      "title": "Fertilisation types",
+      "text": "Internal (inside body — humans, birds) vs External (outside — frogs, fish in water)."
+    },
+    {
+      "emoji": "🐸",
+      "title": "Metamorphosis",
+      "text": "Larva looks totally different from adult. Tadpole → frog. Caterpillar → butterfly."
+    },
+    {
+      "emoji": "🐣",
+      "title": "Oviparous vs viviparous",
+      "text": "Oviparous = lay eggs (birds, frogs). Viviparous = give birth to young (humans, cows)."
+    }
+  ],
+  "sections": [
+    {
+      "id": "types",
+      "title": "Modes of Reproduction",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Sexual reproduction",
+          "detail": "Two parents, gametes fuse, genetic variation in offspring",
+          "icon": "👫",
+          "highlight": true
+        },
+        {
+          "label": "Asexual — budding",
+          "detail": "Hydra grows a bud that detaches as new individual",
+          "icon": "🫧"
+        },
+        {
+          "label": "Asexual — fission",
+          "detail": "Amoeba splits into two identical cells",
+          "icon": "🦠"
+        },
+        {
+          "label": "Internal fertilisation",
+          "detail": "Fusion inside female body — humans, reptiles, birds",
+          "icon": "🔒",
+          "highlight": true
+        },
+        {
+          "label": "External fertilisation",
+          "detail": "Eggs fertilised outside body in water — frogs, fish",
+          "icon": "💧",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Oviparous vs Viviparous",
+      "left": {
+        "label": "Oviparous (egg-laying)",
+        "points": [
+          "Lay eggs",
+          "Embryo develops in egg",
+          "Examples: birds, frogs, insects",
+          "Less parental care (mostly)"
+        ]
+      },
+      "right": {
+        "label": "Viviparous (live birth)",
+        "points": [
+          "Give birth to young",
+          "Embryo develops inside mother",
+          "Examples: humans, cows, dogs",
+          "More parental care"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "human-reproduction",
+      "title": "Human Reproduction — From Fertilisation to Birth",
+      "description": "Follow the journey from sperm meeting egg to a developing baby.",
+      "steps": [
+        {
+          "label": "Fertilisation",
+          "action": "Sperm + Egg fuse",
+          "description": "Fusion in fallopian tube forms a single-celled zygote.",
+          "icon": "🥚"
+        },
+        {
+          "label": "Zygote",
+          "action": "Travels to uterus",
+          "description": "Zygote divides repeatedly while moving to the uterus.",
+          "icon": "🔬"
+        },
+        {
+          "label": "Embryo",
+          "action": "Implants in uterus",
+          "description": "Ball of cells embeds in uterus wall. Gets nourishment from mother.",
+          "icon": "❤️"
+        },
+        {
+          "label": "Foetus",
+          "action": "Organs develop",
+          "description": "After 8 weeks, called foetus — heart, brain, limbs form.",
+          "icon": "👶"
+        },
+        {
+          "label": "Birth",
+          "action": "~9 months later",
+          "description": "Uterus contracts — baby born after gestation period.",
+          "icon": "🐣"
+        }
+      ]
+    },
+    {
+      "id": "frog-metamorphosis",
+      "title": "Frog Metamorphosis",
+      "description": "Tadpole transforms completely into an adult frog.",
+      "steps": [
+        {
+          "label": "Eggs",
+          "action": "Laid in water",
+          "description": "Female frog lays eggs in water. Male fertilises externally.",
+          "icon": "🥚"
+        },
+        {
+          "label": "Tadpole",
+          "action": "Hatches with tail",
+          "description": "Aquatic larva — breathes with gills, has tail, no legs.",
+          "icon": "🐟"
+        },
+        {
+          "label": "Changes",
+          "action": "Legs grow, tail shrinks",
+          "description": "Hind legs appear first, then front legs. Tail absorbed.",
+          "icon": "🔄"
+        },
+        {
+          "label": "Lungs develop",
+          "action": "Gills disappear",
+          "description": "Tadpole starts breathing air with developing lungs.",
+          "icon": "🫁"
+        },
+        {
+          "label": "Adult frog",
+          "action": "Leaves water",
+          "description": "Fully transformed frog — lives on land, returns to water to breed.",
+          "icon": "🐸"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Gamete",
+      "definition": "Reproductive cell — sperm (male) or egg/ovum (female)",
+      "analogy": "Half an instruction manual from each parent"
+    },
+    {
+      "term": "Zygote",
+      "definition": "Fertilised egg — first cell of new organism",
+      "analogy": "Chapter 1 of a new life"
+    },
+    {
+      "term": "Metamorphosis",
+      "definition": "Transformation from larva to adult with different body form",
+      "analogy": "A complete makeover between life stages"
+    },
+    {
+      "term": "Gestation period",
+      "definition": "Time between fertilisation and birth",
+      "analogy": "The waiting period before the big arrival"
+    }
+  ],
+  "related": [
+    "cell-structure",
+    "adolescence"
+  ],
+  "demos": [
+    {
+      "id": "fertilization-demo",
+      "title": "Internal Fertilisation — Fallopian Tube",
+      "description": "Watch an egg release from the ovary, sperm swim through the fallopian tube, and fusion form a zygote.",
+      "scene": "reproduction",
+      "steps": [
+        {
+          "label": "Egg released",
+          "description": "Ovary releases a mature egg into the fallopian tube (oviduct).",
+          "visual": "mix"
+        },
+        {
+          "label": "Sperm reach egg",
+          "description": "Sperm swim up the tube; one penetrates the egg membrane.",
+          "visual": "react"
+        },
+        {
+          "label": "Zygote forms",
+          "description": "Sperm and egg nuclei fuse — a single-celled zygote begins dividing.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Reproduction creates new individuals and continues the species. This chapter covers sexual reproduction (fusion of sperm and egg), asexual reproduction (budding, fission), internal vs external fertilisation, embryo development, metamorphosis, and the difference between egg-laying and live-bearing animals.",
+    "keyPoints": [
+      "Sexual reproduction involves two parents and gametes (sperm + egg) → zygote → embryo.",
+      "Asexual reproduction: one parent, no gametes — budding (Hydra), binary fission (Amoeba).",
+      "Internal fertilisation (humans, birds) vs external fertilisation (frogs, fish in water).",
+      "Oviparous animals lay eggs; viviparous animals give birth to live young.",
+      "Metamorphosis: larva transforms into adult (tadpole → frog, caterpillar → butterfly)."
+    ],
+    "examFocus": "Compare sexual vs asexual reproduction. Draw the path of sperm to egg. Explain metamorphosis with examples."
+  }
+}

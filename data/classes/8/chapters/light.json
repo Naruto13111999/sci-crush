@@ -1,0 +1,292 @@
+{
+  "id": "light",
+  "classId": "8",
+  "name": "Light",
+  "subject": "physics",
+  "icon": "💡",
+  "summary": "Light travels straight, reflects, refracts, and splits into colours. Laws of reflection, mirrors, lenses, and the human eye.",
+  "readTime": "9 min",
+  "crushed": [
+    {
+      "emoji": "➡️",
+      "title": "Light travels in straight lines",
+      "text": "Ray model — light goes straight until it hits something. Pinhole camera proves this."
+    },
+    {
+      "emoji": "🪞",
+      "title": "Reflection: angle in = angle out",
+      "text": "Angle of incidence = angle of reflection. Same for plane, concave, and convex mirrors."
+    },
+    {
+      "emoji": "🔍",
+      "title": "Refraction = bending at boundary",
+      "text": "Light slows in denser medium → bends. Pencil in water looks broken."
+    },
+    {
+      "emoji": "🌈",
+      "title": "Dispersion",
+      "text": "White light splits into VIBGYOR through a prism. Violet bends most, red least."
+    },
+    {
+      "emoji": "👁️",
+      "title": "Eye = natural camera",
+      "text": "Cornea + lens focus image on retina. Myopia (near) → concave lens. Hypermetropia (far) → convex lens."
+    }
+  ],
+  "sections": [
+    {
+      "id": "reflection",
+      "title": "Laws of Reflection",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Law 1",
+          "detail": "Incident ray, reflected ray, and normal all lie in the same plane",
+          "icon": "1️⃣",
+          "highlight": true
+        },
+        {
+          "label": "Law 2",
+          "detail": "Angle of incidence (∠i) = Angle of reflection (∠r)",
+          "icon": "2️⃣",
+          "highlight": true
+        },
+        {
+          "label": "Plane mirror",
+          "detail": "Virtual, erect, same size image. Laterally inverted",
+          "icon": "🪞"
+        },
+        {
+          "label": "Concave mirror",
+          "detail": "Converges light. Used in torches, dentist mirrors, solar furnaces",
+          "icon": "🔦",
+          "highlight": true
+        },
+        {
+          "label": "Convex mirror",
+          "detail": "Diverges light. Wider field of view — rear-view mirrors, shop security",
+          "icon": "🚗",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "lenses",
+      "title": "Types of Lenses",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Convex (converging)",
+          "detail": "Thicker in middle. Focuses parallel rays to a point",
+          "icon": "🔍",
+          "highlight": true
+        },
+        {
+          "label": "Concave (diverging)",
+          "detail": "Thinner in middle. Spreads parallel rays apart",
+          "icon": "👓",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Concave vs Convex Mirror",
+      "left": {
+        "label": "Concave Mirror",
+        "points": [
+          "Converges light rays",
+          "Real or virtual image",
+          "Used in torches & headlights",
+          "Shaving/dentist mirrors"
+        ]
+      },
+      "right": {
+        "label": "Convex Mirror",
+        "points": [
+          "Diverges light rays",
+          "Always virtual, erect, smaller",
+          "Wide field of view",
+          "Rear-view & security mirrors"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "reflection-ray",
+      "title": "Tracing a Reflected Ray",
+      "description": "Follow a light ray hitting a plane mirror step by step.",
+      "steps": [
+        {
+          "label": "Incident ray",
+          "action": "Light hits mirror",
+          "description": "Ray travels in straight line toward mirror surface.",
+          "icon": "➡️"
+        },
+        {
+          "label": "Normal",
+          "action": "Draw perpendicular",
+          "description": "Normal is line perpendicular to mirror at point of incidence.",
+          "icon": "📐"
+        },
+        {
+          "label": "Measure ∠i",
+          "action": "Angle of incidence",
+          "description": "Angle between incident ray and normal.",
+          "icon": "📏"
+        },
+        {
+          "label": "Reflect",
+          "action": "∠r = ∠i",
+          "description": "Reflected ray makes equal angle on other side of normal.",
+          "icon": "🪞"
+        },
+        {
+          "label": "Image",
+          "action": "Virtual image forms",
+          "description": "Extend reflected ray back — virtual image appears behind mirror.",
+          "icon": "👤"
+        }
+      ]
+    },
+    {
+      "id": "prism-dispersion",
+      "title": "White Light Through a Prism",
+      "description": "Newton's experiment — white light is made of all colours.",
+      "steps": [
+        {
+          "label": "White light",
+          "action": "Enters prism",
+          "description": "Single white beam enters triangular glass prism.",
+          "icon": "💡"
+        },
+        {
+          "label": "Refraction",
+          "action": "Light bends",
+          "description": "Light slows in glass — bends toward normal at first surface.",
+          "icon": "🔺"
+        },
+        {
+          "label": "Split",
+          "action": "Different colours bend differently",
+          "description": "Violet (short λ) bends most. Red (long λ) bends least.",
+          "icon": "🌈"
+        },
+        {
+          "label": "Spectrum",
+          "action": "VIBGYOR emerges",
+          "description": "Seven colours spread out — visible spectrum.",
+          "icon": "🎨"
+        },
+        {
+          "label": "Conclusion",
+          "action": "White = all colours",
+          "description": "White light is a mixture of all visible colours.",
+          "icon": "✅"
+        }
+      ]
+    },
+    {
+      "id": "human-eye",
+      "title": "How the Human Eye Focuses",
+      "description": "Light enters the eye and forms an image on the retina.",
+      "steps": [
+        {
+          "label": "Light enters",
+          "action": "Through cornea",
+          "description": "Cornea does most of the initial bending of light.",
+          "icon": "👁️"
+        },
+        {
+          "label": "Pupil",
+          "action": "Iris controls light",
+          "description": "Iris adjusts pupil size — more light in dark, less in bright.",
+          "icon": "⭕"
+        },
+        {
+          "label": "Lens",
+          "action": "Fine focus",
+          "description": "Crystalline lens adjusts shape (accommodation) to focus on retina.",
+          "icon": "🔍"
+        },
+        {
+          "label": "Retina",
+          "action": "Image formed",
+          "description": "Real, inverted image on retina — rod and cone cells detect it.",
+          "icon": "📷"
+        },
+        {
+          "label": "Brain",
+          "action": "Upright image seen",
+          "description": "Optic nerve sends signals — brain interprets as upright image.",
+          "icon": "🧠"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Reflection",
+      "definition": "Bouncing back of light when it hits a surface",
+      "analogy": "A ball bouncing off a wall"
+    },
+    {
+      "term": "Refraction",
+      "definition": "Bending of light when it passes from one medium to another",
+      "analogy": "A car slowing and turning when entering mud from road"
+    },
+    {
+      "term": "Dispersion",
+      "definition": "Splitting of white light into its component colours",
+      "analogy": "A prism revealing the hidden rainbow inside white light"
+    },
+    {
+      "term": "Myopia",
+      "definition": "Near-sightedness — distant objects appear blurry",
+      "analogy": "Eye focuses images too soon — concave lens pushes focus back"
+    }
+  ],
+  "related": [
+    "sound",
+    "stars-solar-system",
+    "natural-phenomena"
+  ],
+  "demos": [
+    {
+      "id": "prism-dispersion",
+      "title": "Prism — White Light to Rainbow",
+      "description": "A glass prism bends each colour differently, splitting white light into VIBGYOR.",
+      "scene": "light",
+      "steps": [
+        {
+          "label": "Sunlight in lab",
+          "description": "Wide view: white sunlight enters through the window toward a prism.",
+          "visual": "mix"
+        },
+        {
+          "label": "Light hits prism",
+          "description": "Zoom in: the ray refracts as it enters and leaves the glass.",
+          "visual": "react"
+        },
+        {
+          "label": "VIBGYOR spectrum",
+          "description": "Each colour bends differently — a rainbow spreads on the screen.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Light enables us to see objects. This chapter covers laws of reflection, plane and curved mirrors, kaleidoscopes, sunlight dispersion through a prism (VIBGYOR spectrum), the human eye, vision defects, and care of eyes.",
+    "keyPoints": [
+      "Light travels in straight lines; reflection follows angle of incidence = angle of reflection.",
+      "Plane mirror: virtual, erect, same-size image; lateral inversion.",
+      "White light splits into seven colours through a prism — violet bends most, red least.",
+      "Eye: cornea, iris, lens, retina; image formed on retina, signal sent to brain via optic nerve.",
+      "Vision defects: myopia (near-sighted), hypermetropia (far-sighted) corrected with lenses."
+    ],
+    "examFocus": "Draw ray diagrams for plane mirror. Explain dispersion of light. Label parts of the human eye."
+  }
+}

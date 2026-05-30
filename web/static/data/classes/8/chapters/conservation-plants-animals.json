@@ -1,0 +1,191 @@
+{
+  "id": "conservation-plants-animals",
+  "classId": "8",
+  "name": "Conservation of Plants and Animals",
+  "subject": "biology",
+  "icon": "🦁",
+  "summary": "Deforestation, wildlife sanctuaries, biosphere reserves, endemic and endangered species — why biodiversity matters.",
+  "readTime": "7 min",
+  "crushed": [
+    {
+      "emoji": "🌳",
+      "title": "Deforestation = cutting forests",
+      "text": "Causes: farming, urbanisation, mining, dams. Effects: floods, drought, climate change, species loss."
+    },
+    {
+      "emoji": "🏞️",
+      "title": "Protected areas",
+      "text": "Wildlife sanctuary (protect animals), National park (protect entire ecosystem), Biosphere reserve (research + conservation)."
+    },
+    {
+      "emoji": "📍",
+      "title": "Endemic = found only here",
+      "text": "Species unique to one geographic area. E.g. sal tree in MP, wild mango in Himalayas."
+    },
+    {
+      "emoji": "⚠️",
+      "title": "Endangered = near extinction",
+      "text": "Very few left — tiger, one-horned rhino, Asiatic lion. Red Data Book lists them."
+    },
+    {
+      "emoji": "🔄",
+      "title": "Migration",
+      "text": "Birds fly long distances seasonally — Siberian crane to Bharatpur wetlands."
+    }
+  ],
+  "sections": [
+    {
+      "id": "protected-areas",
+      "title": "Types of Protected Areas",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Wildlife sanctuary",
+          "detail": "Animals protected from hunting. Human activity limited",
+          "icon": "🦌",
+          "highlight": true
+        },
+        {
+          "label": "National park",
+          "detail": "Entire ecosystem protected. No grazing, logging, or private ownership",
+          "icon": "🏔️",
+          "highlight": true
+        },
+        {
+          "label": "Biosphere reserve",
+          "detail": "Large area for conservation + research + sustainable development",
+          "icon": "🌍"
+        },
+        {
+          "label": "Zoo",
+          "detail": "Ex-situ conservation — animals kept outside natural habitat",
+          "icon": "🦁"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Wildlife Sanctuary vs National Park",
+      "left": {
+        "label": "Wildlife Sanctuary",
+        "points": [
+          "Focus: protect animals",
+          "Limited human activity allowed",
+          "Private ownership may exist",
+          "Example: Bharatpur Bird Sanctuary"
+        ]
+      },
+      "right": {
+        "label": "National Park",
+        "points": [
+          "Focus: protect entire ecosystem",
+          "Strictly no human exploitation",
+          "No private ownership",
+          "Example: Kaziranga National Park"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "deforestation-effects",
+      "title": "Chain Reaction of Deforestation",
+      "description": "Cutting forests triggers a cascade of environmental problems.",
+      "steps": [
+        {
+          "label": "Trees cut",
+          "action": "Deforestation",
+          "description": "Forests cleared for agriculture, roads, or industry.",
+          "icon": "🪓"
+        },
+        {
+          "label": "Soil exposed",
+          "action": "Erosion increases",
+          "description": "Without tree roots, topsoil washes away in rain.",
+          "icon": "🌊"
+        },
+        {
+          "label": "Less CO₂ absorbed",
+          "action": "More greenhouse gas",
+          "description": "Fewer trees means more CO₂ stays in atmosphere.",
+          "icon": "🌡️"
+        },
+        {
+          "label": "Habitat lost",
+          "action": "Species displaced",
+          "description": "Animals lose homes — some go extinct locally.",
+          "icon": "🦁"
+        },
+        {
+          "label": "Water cycle disrupted",
+          "action": "Droughts & floods",
+          "description": "Less transpiration → less rain. Bare land → faster runoff → floods.",
+          "icon": "💧"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Biodiversity",
+      "definition": "Variety of plant and animal life in a region",
+      "analogy": "Nature's variety pack"
+    },
+    {
+      "term": "Endemic species",
+      "definition": "Species found only in a particular area",
+      "analogy": "A local specialty you can't find anywhere else"
+    },
+    {
+      "term": "Ecosystem",
+      "definition": "Community of living organisms interacting with their environment",
+      "analogy": "A neighbourhood where everyone depends on each other"
+    },
+    {
+      "term": "Red Data Book",
+      "definition": "Record of endangered species worldwide",
+      "analogy": "An emergency contact list for species about to disappear"
+    }
+  ],
+  "related": [
+    "pollution-air-water",
+    "crop-production"
+  ],
+  "demos": [
+    {
+      "id": "deforestation-impact",
+      "title": "Deforestation Chain Reaction",
+      "description": "Cutting forests triggers soil erosion and rising CO₂ in the atmosphere.",
+      "scene": "ecosystem",
+      "steps": [
+        {
+          "label": "Healthy forest",
+          "description": "Tree roots hold soil; leaves absorb CO₂ during photosynthesis.",
+          "visual": "mix"
+        },
+        {
+          "label": "Trees cleared",
+          "description": "Logging removes cover — rain washes topsoil away.",
+          "visual": "react"
+        },
+        {
+          "label": "Erosion & CO₂ rise",
+          "description": "Bare land erodes; less CO₂ absorbed → greenhouse effect worsens.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Earth's biodiversity is under threat from deforestation, poaching, and pollution. This chapter explains why we must conserve forests and wildlife, how national parks and biosphere reserves protect species, and what individuals can do to reduce their ecological footprint.",
+    "keyPoints": [
+      "Deforestation causes soil erosion, floods, loss of habitat, and increased CO₂ (global warming).",
+      "Wildlife conservation prevents extinction and maintains food chains and ecological balance.",
+      "Protected areas: wildlife sanctuaries, national parks, and biosphere reserves.",
+      "Endemic, endangered, and extinct species — Red Data Book lists threatened organisms.",
+      "Reforestation replants trees; we can reduce paper use, avoid products from endangered animals."
+    ],
+    "examFocus": "Explain consequences of deforestation. Differentiate sanctuary vs national park. List steps for conservation."
+  }
+}

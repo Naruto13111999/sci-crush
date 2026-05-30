@@ -1,0 +1,236 @@
+{
+  "id": "sound",
+  "classId": "8",
+  "name": "Sound",
+  "subject": "physics",
+  "icon": "🔊",
+  "summary": "Sound is a vibration travelling through a medium. Pitch, loudness, frequency, amplitude — and why sound can't travel in vacuum.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "〰️",
+      "title": "Sound = vibration",
+      "text": "Object vibrates → particles of medium bump into neighbours → wave travels. Needs solid, liquid, or gas."
+    },
+    {
+      "emoji": "🚫",
+      "title": "No medium = no sound",
+      "text": "Space is silent — no air for vibrations to travel. Bell jar experiment proves this."
+    },
+    {
+      "emoji": "🎵",
+      "title": "Pitch = frequency",
+      "text": "High frequency → high pitch (flute). Low frequency → low pitch (drum). Measured in hertz (Hz)."
+    },
+    {
+      "emoji": "📢",
+      "title": "Loudness = amplitude",
+      "text": "Bigger vibration → louder sound. Measured in decibels (dB). Above 80 dB damages hearing."
+    },
+    {
+      "emoji": "👂",
+      "title": "Human hearing: 20 Hz – 20,000 Hz",
+      "text": "Below 20 Hz = infrasonic (elephants). Above 20,000 Hz = ultrasonic (bats, ultrasound scans)."
+    }
+  ],
+  "sections": [
+    {
+      "id": "properties",
+      "title": "Properties of Sound",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Frequency",
+          "detail": "Vibrations per second (Hz). Determines pitch",
+          "icon": "🎵",
+          "highlight": true
+        },
+        {
+          "label": "Amplitude",
+          "detail": "Size of vibration. Determines loudness",
+          "icon": "📢",
+          "highlight": true
+        },
+        {
+          "label": "Wavelength",
+          "detail": "Distance between consecutive compressions or rarefactions",
+          "icon": "〰️"
+        },
+        {
+          "label": "Speed",
+          "detail": "Fastest in solids > liquids > gases. ~340 m/s in air at 20°C",
+          "icon": "⚡",
+          "highlight": true
+        },
+        {
+          "label": "Echo",
+          "detail": "Reflection of sound. Heard when distance > 17 m (0.1 s gap)",
+          "icon": "🏔️"
+        }
+      ]
+    },
+    {
+      "id": "frequency-ranges",
+      "title": "Frequency Ranges",
+      "visualType": "list",
+      "items": [
+        {
+          "label": "Infrasonic (< 20 Hz)",
+          "detail": "Elephants communicate, earthquakes, volcanic eruptions",
+          "icon": "🐘"
+        },
+        {
+          "label": "Audible (20 – 20,000 Hz)",
+          "detail": "Human hearing range",
+          "icon": "👂",
+          "highlight": true
+        },
+        {
+          "label": "Ultrasonic (> 20,000 Hz)",
+          "detail": "Bats navigate, ultrasound medical scans, cleaning jewellery",
+          "icon": "🦇",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "sound-travel",
+      "title": "How Sound Travels Through Air",
+      "description": "A drum hit creates compressions and rarefactions that reach your ear.",
+      "steps": [
+        {
+          "label": "Drum hit",
+          "action": "Drum skin vibrates",
+          "description": "Strike causes drum membrane to vibrate back and forth.",
+          "icon": "🥁"
+        },
+        {
+          "label": "Compression",
+          "action": "Air particles pushed",
+          "description": "Vibration pushes nearby air particles closer — high pressure zone.",
+          "icon": "🔵"
+        },
+        {
+          "label": "Rarefaction",
+          "action": "Air particles spread",
+          "description": "Membrane moves back — particles spread apart — low pressure zone.",
+          "icon": "⚪"
+        },
+        {
+          "label": "Wave travels",
+          "action": "Pattern propagates",
+          "description": "Alternating compressions & rarefactions travel outward as longitudinal wave.",
+          "icon": "〰️"
+        },
+        {
+          "label": "Ear",
+          "action": "Brain hears sound",
+          "description": "Wave hits eardrum → vibrations to brain via nerves.",
+          "icon": "👂"
+        }
+      ]
+    },
+    {
+      "id": "bell-jar",
+      "title": "Bell Jar Experiment — Sound Needs Medium",
+      "description": "Electric bell in sealed jar — sound fades as air is pumped out.",
+      "steps": [
+        {
+          "label": "Setup",
+          "action": "Bell in glass jar",
+          "description": "Ringing electric bell inside airtight glass jar.",
+          "icon": "🔔"
+        },
+        {
+          "label": "Air present",
+          "action": "Sound heard clearly",
+          "description": "Vibrations travel through air to outside.",
+          "icon": "🔊"
+        },
+        {
+          "label": "Pump air out",
+          "action": "Vacuum forms",
+          "description": "Vacuum pump removes air from jar gradually.",
+          "icon": "💨"
+        },
+        {
+          "label": "Bell still rings",
+          "action": "But no sound heard",
+          "description": "Bell vibrates but no medium to carry sound waves.",
+          "icon": "🔕"
+        },
+        {
+          "label": "Conclusion",
+          "action": "Medium is essential",
+          "description": "Sound cannot travel through vacuum.",
+          "icon": "✅"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Longitudinal wave",
+      "definition": "Wave where particles vibrate parallel to direction of travel",
+      "analogy": "A slinky pushed end-to-end — compressions travel along it"
+    },
+    {
+      "term": "Frequency",
+      "definition": "Number of vibrations per second, measured in hertz (Hz)",
+      "analogy": "How fast a guitar string wiggles back and forth"
+    },
+    {
+      "term": "Amplitude",
+      "definition": "Maximum displacement from rest position — determines loudness",
+      "analogy": "How far you swing the door — bigger swing, louder bang"
+    },
+    {
+      "term": "Decibel (dB)",
+      "definition": "Unit of sound loudness. Whisper ~30 dB, jet engine ~140 dB",
+      "analogy": "The volume knob's measurement scale"
+    }
+  ],
+  "related": [
+    "force-pressure",
+    "friction",
+    "light"
+  ],
+  "demos": [
+    {
+      "id": "sound-wave-demo",
+      "title": "Sound — Vibration to Wave",
+      "description": "A vibrating bell creates compressions that travel through air as sound.",
+      "scene": "sound",
+      "steps": [
+        {
+          "label": "Classroom view",
+          "description": "Wide shot of the lab — a bell mounted on the wall.",
+          "visual": "mix"
+        },
+        {
+          "label": "Bell vibrates",
+          "description": "Zoom in: hammer strikes the bell — metal vibrates rapidly.",
+          "visual": "react"
+        },
+        {
+          "label": "Sound waves",
+          "description": "Vibrations create compressions in air — waves travel to your ear.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Sound is a form of energy produced by vibrating objects and travels as longitudinal waves through a medium. This chapter covers production and propagation of sound, characteristics (amplitude, frequency, pitch, loudness), speed in different media, reflection (echo), and the human ear.",
+    "keyPoints": [
+      "Sound needs a medium — cannot travel through vacuum; fastest in solids, slowest in gases.",
+      "Vibration → compression and rarefaction → sound wave travels to the ear.",
+      "Amplitude → loudness; frequency → pitch; higher frequency = higher pitch.",
+      "Human hearing range: 20 Hz to 20,000 Hz; ultrasound above 20,000 Hz.",
+      "Echo: reflected sound heard after original; used in SONAR and medical imaging."
+    ],
+    "examFocus": "Explain how sound is produced and travels. Differentiate pitch vs loudness. Calculate echo distance using speed of sound."
+  }
+}

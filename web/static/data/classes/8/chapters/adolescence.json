@@ -1,0 +1,237 @@
+{
+  "id": "adolescence",
+  "classId": "8",
+  "name": "Reaching the Age of Adolescence",
+  "subject": "biology",
+  "icon": "🧑",
+  "summary": "Adolescence (11–19 years) — puberty, hormones, reproductive health, and personal hygiene during this transition.",
+  "readTime": "7 min",
+  "crushed": [
+    {
+      "emoji": "📅",
+      "title": "Adolescence = 11 to 19 years",
+      "text": "Transition from childhood to adulthood. Body and mind both change rapidly."
+    },
+    {
+      "emoji": "💉",
+      "title": "Puberty = physical changes",
+      "text": "Triggered by hormones. Voice changes, height spurt, hair growth, reproductive organs mature."
+    },
+    {
+      "emoji": "🧬",
+      "title": "Hormones control it all",
+      "text": "Testosterone (male), Oestrogen (female), Growth hormone, Insulin — chemical messengers in blood."
+    },
+    {
+      "emoji": "🩺",
+      "title": "Reproductive health matters",
+      "text": "Balanced diet, exercise, hygiene. Say no to drugs — they damage liver, brain, and reproductive system."
+    },
+    {
+      "emoji": "🧼",
+      "title": "Personal hygiene",
+      "text": "More sweat & oil during puberty — bathe daily, clean clothes, oral hygiene."
+    }
+  ],
+  "sections": [
+    {
+      "id": "puberty-changes",
+      "title": "Changes During Puberty",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Height increase",
+          "detail": "Sudden growth spurt — long bones grow rapidly",
+          "icon": "📏",
+          "highlight": true
+        },
+        {
+          "label": "Voice change",
+          "detail": "Boys: voice deepens as larynx grows. Girls: voice slightly deeper",
+          "icon": "🗣️"
+        },
+        {
+          "label": "Body hair",
+          "detail": "Underarms, pubic region, face (boys) — androgen hormones trigger this",
+          "icon": "💈"
+        },
+        {
+          "label": "Skin changes",
+          "detail": "More oily skin → acne/pimples common",
+          "icon": "😤"
+        },
+        {
+          "label": "Reproductive maturity",
+          "detail": "Testes/ovaries mature — capable of producing gametes",
+          "icon": "🧬",
+          "highlight": true
+        },
+        {
+          "label": "Emotional changes",
+          "detail": "Mood swings, increased independence, peer influence",
+          "icon": "🎭"
+        }
+      ]
+    },
+    {
+      "id": "hormones",
+      "title": "Key Hormones",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Growth hormone",
+          "detail": "Pituitary gland — controls height and overall growth",
+          "icon": "📏"
+        },
+        {
+          "label": "Testosterone",
+          "detail": "Testes — male secondary sexual characteristics",
+          "icon": "♂️",
+          "highlight": true
+        },
+        {
+          "label": "Oestrogen",
+          "detail": "Ovaries — female secondary sexual characteristics",
+          "icon": "♀️",
+          "highlight": true
+        },
+        {
+          "label": "Insulin",
+          "detail": "Pancreas — controls blood sugar levels",
+          "icon": "🍬"
+        },
+        {
+          "label": "Adrenaline",
+          "detail": "Adrenal gland — fight-or-flight response",
+          "icon": "⚡"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Secondary Sexual Characters — Boys vs Girls",
+      "left": {
+        "label": "Boys",
+        "points": [
+          "Facial hair grows",
+          "Voice deepens significantly",
+          "Shoulders broaden",
+          "Adam's apple visible",
+          "Testes start producing sperm"
+        ]
+      },
+      "right": {
+        "label": "Girls",
+        "points": [
+          "Breasts develop",
+          "Hips widen",
+          "Menstruation begins",
+          "Body fat distribution changes",
+          "Ovaries start releasing eggs"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "hormone-action",
+      "title": "How a Hormone Works",
+      "description": "Endocrine gland releases hormone → travels in blood → acts on target organ.",
+      "steps": [
+        {
+          "label": "Stimulus",
+          "action": "Body needs change",
+          "description": "E.g. blood sugar rises after eating.",
+          "icon": "🍽️"
+        },
+        {
+          "label": "Gland",
+          "action": "Hormone released",
+          "description": "Endocrine gland (e.g. pancreas) secretes hormone into blood.",
+          "icon": "💉"
+        },
+        {
+          "label": "Bloodstream",
+          "action": "Hormone travels",
+          "description": "Hormone carried to target organs throughout body.",
+          "icon": "🩸"
+        },
+        {
+          "label": "Target organ",
+          "action": "Response triggered",
+          "description": "Target cells have receptors — change their activity.",
+          "icon": "🎯"
+        },
+        {
+          "label": "Balance restored",
+          "action": "Feedback control",
+          "description": "Body returns to normal — hormone release slows down.",
+          "icon": "⚖️"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Adolescence",
+      "definition": "Period between childhood and adulthood (approx. 11–19 years)",
+      "analogy": "The upgrade phase between kid and adult software"
+    },
+    {
+      "term": "Puberty",
+      "definition": "Stage when body becomes capable of reproduction",
+      "analogy": "When your body switches on adult mode"
+    },
+    {
+      "term": "Hormone",
+      "definition": "Chemical messenger secreted by endocrine glands into blood",
+      "analogy": "A text message sent through your bloodstream"
+    },
+    {
+      "term": "Menstruation",
+      "definition": "Monthly shedding of uterus lining in females",
+      "analogy": "A monthly reset of the uterus preparation system"
+    }
+  ],
+  "related": [
+    "reproduction-animals",
+    "cell-structure"
+  ],
+  "demos": [
+    {
+      "id": "hormone-signal",
+      "title": "Endocrine Hormone Signal",
+      "description": "A gland releases a hormone that travels in blood to a target organ.",
+      "scene": "hormone",
+      "steps": [
+        {
+          "label": "Gland activated",
+          "description": "Brain signal triggers hormone release from endocrine gland.",
+          "visual": "mix"
+        },
+        {
+          "label": "Hormone in blood",
+          "description": "Hormone travels through bloodstream to distant organs.",
+          "visual": "react"
+        },
+        {
+          "label": "Target responds",
+          "description": "Target organ cells receive signal — growth or change begins.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Adolescence is the transition from childhood to adulthood (roughly 11–19 years), marked by puberty. This chapter covers physical and emotional changes, the role of hormones, reproductive health, personal hygiene, and balanced nutrition during this critical growth phase.",
+    "keyPoints": [
+      "Puberty brings secondary sexual characters — voice change, height spurt, acne, body hair.",
+      "Hormones (testosterone, estrogen) from endocrine glands control these changes.",
+      "Reproductive health: awareness of AIDS (HIV), personal hygiene, and responsible behaviour.",
+      "Balanced diet with iron, calcium, and protein supports rapid growth.",
+      "Adolescents need exercise, adequate sleep, and emotional support from family."
+    ],
+    "examFocus": "List changes during puberty. Explain how hormones work. Discuss hygiene and health tips for adolescents."
+  }
+}

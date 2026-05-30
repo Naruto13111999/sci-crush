@@ -1,0 +1,259 @@
+{
+  "id": "cell-structure",
+  "classId": "8",
+  "name": "Cell — Structure and Functions",
+  "subject": "biology",
+  "icon": "🔬",
+  "summary": "The cell is life's building block. Learn plant vs animal cells, organelles, and how each part keeps you alive.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "🧱",
+      "title": "Cell = smallest living unit",
+      "text": "Every living thing — from bacteria to you — is made of one or more cells. Think LEGO blocks for life."
+    },
+    {
+      "emoji": "🌿",
+      "title": "Plant cells have extras",
+      "text": "Cell wall (rigid box), chloroplasts (green solar panels), and a big vacuole (storage tank). Animal cells skip these."
+    },
+    {
+      "emoji": "🧠",
+      "title": "Nucleus = control room",
+      "text": "Holds DNA — the instruction manual. It tells the cell what proteins to make and when to divide."
+    },
+    {
+      "emoji": "⚡",
+      "title": "Mitochondria = power plants",
+      "text": "Burn glucose + oxygen to release ATP energy. More active cells (muscle) have more mitochondria."
+    },
+    {
+      "emoji": "🏭",
+      "title": "Ribosomes make proteins",
+      "text": "Tiny factories that read RNA instructions and stitch amino acids into proteins."
+    }
+  ],
+  "sections": [
+    {
+      "id": "organelles",
+      "title": "Key Organelles at a Glance",
+      "intro": "Each organelle has one main job. Memorize the job, not every detail.",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Nucleus",
+          "detail": "Controls cell activities; contains chromosomes (DNA)",
+          "icon": "🧠",
+          "highlight": true
+        },
+        {
+          "label": "Cytoplasm",
+          "detail": "Jelly-like fluid where organelles float and reactions happen",
+          "icon": "💧"
+        },
+        {
+          "label": "Cell membrane",
+          "detail": "Thin boundary — controls what enters and leaves",
+          "icon": "🛡️"
+        },
+        {
+          "label": "Mitochondria",
+          "detail": "Respiration → ATP energy",
+          "icon": "⚡",
+          "highlight": true
+        },
+        {
+          "label": "Ribosomes",
+          "detail": "Protein synthesis",
+          "icon": "🏭"
+        },
+        {
+          "label": "Endoplasmic reticulum",
+          "detail": "Transport network + rough ER has ribosomes",
+          "icon": "🛤️"
+        },
+        {
+          "label": "Golgi body",
+          "detail": "Packages and ships proteins",
+          "icon": "📦"
+        },
+        {
+          "label": "Lysosomes",
+          "detail": "Digestive bags — break down waste (suicide bags)",
+          "icon": "🗑️"
+        },
+        {
+          "label": "Chloroplast",
+          "detail": "Photosynthesis — only in plant cells",
+          "icon": "☀️",
+          "highlight": true
+        },
+        {
+          "label": "Cell wall",
+          "detail": "Rigid outer layer — plants & fungi only",
+          "icon": "🧱"
+        },
+        {
+          "label": "Vacuole",
+          "detail": "Storage — large in plant cells",
+          "icon": "🫙"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Plant Cell vs Animal Cell",
+      "left": {
+        "label": "Plant Cell 🌿",
+        "points": [
+          "Has cell wall",
+          "Has chloroplasts",
+          "Large central vacuole",
+          "Fixed shape (box-like)",
+          "Stores starch"
+        ]
+      },
+      "right": {
+        "label": "Animal Cell 🐾",
+        "points": [
+          "No cell wall",
+          "No chloroplasts",
+          "Small vacuoles",
+          "Round/irregular shape",
+          "Stores glycogen"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "protein-synthesis",
+      "title": "How a Cell Makes a Protein",
+      "description": "Follow the journey from DNA instruction to finished protein leaving the cell.",
+      "steps": [
+        {
+          "label": "Nucleus",
+          "action": "DNA copied to mRNA",
+          "description": "The gene for a specific protein is transcribed into messenger RNA.",
+          "icon": "🧠"
+        },
+        {
+          "label": "mRNA",
+          "action": "Leaves nucleus",
+          "description": "mRNA exits through nuclear pores into the cytoplasm.",
+          "icon": "📜"
+        },
+        {
+          "label": "Ribosome",
+          "action": "Reads mRNA",
+          "description": "Ribosome reads codons (3-letter codes) and links amino acids.",
+          "icon": "🏭"
+        },
+        {
+          "label": "Rough ER",
+          "action": "Folds protein",
+          "description": "New protein enters ER for folding and initial processing.",
+          "icon": "🛤️"
+        },
+        {
+          "label": "Golgi body",
+          "action": "Packages protein",
+          "description": "Golgi adds tags and packs protein into vesicles.",
+          "icon": "📦"
+        },
+        {
+          "label": "Cell membrane",
+          "action": "Secretes protein",
+          "description": "Vesicle fuses with membrane — protein released outside cell.",
+          "icon": "🚀"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Cell",
+      "definition": "Structural and functional unit of life",
+      "analogy": "Smallest LEGO block that can still be 'alive'"
+    },
+    {
+      "term": "Organelle",
+      "definition": "Specialized structure inside a cell with a specific function",
+      "analogy": "Departments in a factory"
+    },
+    {
+      "term": "Prokaryote",
+      "definition": "Cell without a true nucleus (e.g. bacteria)",
+      "analogy": "Open-plan office — no separate control room"
+    },
+    {
+      "term": "Eukaryote",
+      "definition": "Cell with a membrane-bound nucleus (plants, animals, fungi)",
+      "analogy": "Office with a locked CEO room (nucleus)"
+    }
+  ],
+  "related": [
+    "microorganisms",
+    "reproduction-animals"
+  ],
+  "demos": [
+    {
+      "id": "plant-cell-tour",
+      "title": "Plant Cell — Organelle Tour",
+      "description": "Zoom from the whole plant into a leaf, then inside one cell to tour each organelle.",
+      "scene": "cell",
+      "steps": [
+        {
+          "label": "Whole plant",
+          "description": "We start with a green plant — every part is built from tiny cells.",
+          "visual": "mix"
+        },
+        {
+          "label": "Zoom into leaf",
+          "description": "Magnify a leaf — its surface is made of millions of plant cells in a grid.",
+          "visual": "react"
+        },
+        {
+          "label": "Organelle tour",
+          "description": "Inside one cell: cell wall, nucleus, chloroplasts, and vacuole light up.",
+          "visual": "product"
+        }
+      ]
+    },
+    {
+      "id": "protein-synthesis-demo",
+      "title": "From DNA to Protein",
+      "description": "Follow mRNA leaving the nucleus to a ribosome where a protein is built.",
+      "scene": "protein-synthesis",
+      "steps": [
+        {
+          "label": "Transcription",
+          "description": "DNA in the nucleus is copied into messenger RNA (mRNA).",
+          "visual": "mix"
+        },
+        {
+          "label": "mRNA travels",
+          "description": "mRNA exits the nucleus and moves into the cytoplasm.",
+          "visual": "react"
+        },
+        {
+          "label": "Translation",
+          "description": "Ribosome reads mRNA and links amino acids into a protein.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "This chapter introduces the cell as the fundamental unit of life. You learn that all living organisms — from bacteria to humans — are built from one or more cells, and that cells contain specialised structures called organelles, each with a distinct function.",
+    "keyPoints": [
+      "Prokaryotic cells (bacteria) lack a true nucleus; eukaryotic cells (plants, animals, fungi) have a membrane-bound nucleus.",
+      "Plant cells have a rigid cell wall, chloroplasts for photosynthesis, and a large central vacuole; animal cells lack these.",
+      "The nucleus controls cell activities and stores DNA; mitochondria release energy through respiration.",
+      "Ribosomes synthesise proteins; ER and Golgi body process and transport them.",
+      "The cell membrane is selectively permeable — it controls entry and exit of substances."
+    ],
+    "examFocus": "Be able to draw and label plant and animal cells. Compare organelles and their functions. Explain why plant cells look box-shaped while animal cells are irregular."
+  }
+}

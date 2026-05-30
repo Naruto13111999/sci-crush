@@ -1,0 +1,64 @@
+name: Deploy static content to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  # If sci-crush lives in a subfolder of the GitHub repo, set this to that folder name.
+  # If go.mod is at the repo root, use "."
+  SITE_DIR: sci-crush
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify project layout
+        working-directory: ${{ env.SITE_DIR }}
+        run: |
+          if [ ! -f go.mod ]; then
+            echo "::error::go.mod is missing. Push the full sci-crush project or set SITE_DIR correctly."
+            exit 1
+          fi
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache-dependency-path: ${{ env.SITE_DIR }}/go.mod
+
+      - name: Build static site
+        working-directory: ${{ env.SITE_DIR }}
+        env:
+          # Set repository secret SCI_CRUSH_API_URL to your hosted Go API, e.g.
+          # https://your-app.railway.app/api
+          SCI_CRUSH_API_URL: ${{ secrets.SCI_CRUSH_API_URL }}
+        run: go run ./cmd/staticexport
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.SITE_DIR }}/public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

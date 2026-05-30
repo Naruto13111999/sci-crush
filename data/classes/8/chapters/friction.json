@@ -1,0 +1,228 @@
+{
+  "id": "friction",
+  "classId": "8",
+  "name": "Friction",
+  "subject": "physics",
+  "icon": "🛑",
+  "summary": "Friction opposes motion. It depends on surface roughness and how hard surfaces press together — friend and foe.",
+  "readTime": "7 min",
+  "crushed": [
+    {
+      "emoji": "🛑",
+      "title": "Friction = opposing force",
+      "text": "Always acts opposite to the direction of motion (or attempted motion)."
+    },
+    {
+      "emoji": "📐",
+      "title": "Depends on two things",
+      "text": "Surface roughness + normal force (how hard surfaces press). NOT on area of contact."
+    },
+    {
+      "emoji": "👍",
+      "title": "Friend: walking, writing, gripping",
+      "text": "Without friction you couldn't walk — feet would slip. Brakes stop cars."
+    },
+    {
+      "emoji": "👎",
+      "title": "Foe: wear, heat, energy loss",
+      "text": "Machines lose energy to friction. Parts wear out. Engines overheat."
+    },
+    {
+      "emoji": "🛢️",
+      "title": "Reduce friction",
+      "text": "Lubricants (oil, grease), ball bearings, polishing surfaces, streamlining."
+    }
+  ],
+  "sections": [
+    {
+      "id": "types",
+      "title": "Types of Friction",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Static friction",
+          "detail": "Object at rest — must overcome to start moving. Highest value",
+          "icon": "🧱",
+          "highlight": true
+        },
+        {
+          "label": "Sliding friction",
+          "detail": "Object already moving — opposes ongoing motion",
+          "icon": "➡️",
+          "highlight": true
+        },
+        {
+          "label": "Rolling friction",
+          "detail": "Wheel rolling on surface — much less than sliding",
+          "icon": "🛞"
+        },
+        {
+          "label": "Fluid friction (drag)",
+          "detail": "Object moving through air or water — depends on speed & shape",
+          "icon": "💨"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Static vs Sliding Friction",
+      "left": {
+        "label": "Static Friction",
+        "points": [
+          "Object not yet moving",
+          "Larger force needed",
+          "Adjusts to match applied force",
+          "Max value just before motion starts"
+        ]
+      },
+      "right": {
+        "label": "Sliding Friction",
+        "points": [
+          "Object already sliding",
+          "Constant, smaller force",
+          "Causes heating & wear",
+          "Why pushing a box gets easier once it moves"
+        ]
+      }
+    }
+  ],
+  "flows": [
+    {
+      "id": "walking",
+      "title": "How Friction Lets You Walk",
+      "description": "You push backward on the ground — friction pushes you forward.",
+      "steps": [
+        {
+          "label": "Leg muscles",
+          "action": "Push foot backward",
+          "description": "Your foot tries to slide backward on the ground.",
+          "icon": "🦵"
+        },
+        {
+          "label": "Friction",
+          "action": "Ground pushes forward",
+          "description": "Static friction opposes backward slide — equal and opposite forward force.",
+          "icon": "🛑"
+        },
+        {
+          "label": "Body moves",
+          "action": "You walk forward",
+          "description": "Forward friction force propels your body ahead.",
+          "icon": "🚶"
+        },
+        {
+          "label": "Other foot",
+          "action": "Cycle repeats",
+          "description": "Alternate feet — continuous forward motion.",
+          "icon": "🔄"
+        },
+        {
+          "label": "Ice?",
+          "action": "Low friction = slip",
+          "description": "On ice, friction is tiny — foot slides, you fall.",
+          "icon": "🧊"
+        }
+      ]
+    },
+    {
+      "id": "braking",
+      "title": "How Brakes Stop a Car",
+      "description": "Brake pads create friction against wheels to convert kinetic energy to heat.",
+      "steps": [
+        {
+          "label": "Driver",
+          "action": "Presses brake pedal",
+          "description": "Hydraulic system activates brake pads.",
+          "icon": "🚗"
+        },
+        {
+          "label": "Brake pads",
+          "action": "Clamp on disc",
+          "description": "Pads press hard against rotating wheel disc.",
+          "icon": "🛑"
+        },
+        {
+          "label": "Friction",
+          "action": "Opposes rotation",
+          "description": "Sliding friction between pad and disc slows the wheel.",
+          "icon": "🔥"
+        },
+        {
+          "label": "Heat",
+          "action": "Energy → heat",
+          "description": "Kinetic energy converted to heat — discs can glow red.",
+          "icon": "🌡️"
+        },
+        {
+          "label": "Stop",
+          "action": "Car halts",
+          "description": "When friction force balances motion, car stops.",
+          "icon": "✅"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Friction",
+      "definition": "Force opposing relative motion between surfaces in contact",
+      "analogy": "A grumpy gatekeeper that fights any movement"
+    },
+    {
+      "term": "Lubricant",
+      "definition": "Substance (oil, grease) placed between surfaces to reduce friction",
+      "analogy": "Slippery middleman between two fighting surfaces"
+    },
+    {
+      "term": "Streamlining",
+      "definition": "Shaping objects to reduce fluid friction (drag)",
+      "analogy": "Why fish and rockets are pointy at the front"
+    },
+    {
+      "term": "Normal force",
+      "definition": "Force pressing surfaces together — perpendicular to surface",
+      "analogy": "How hard you're squishing two surfaces together"
+    }
+  ],
+  "related": [
+    "force-pressure",
+    "sound"
+  ],
+  "demos": [
+    {
+      "id": "walking-friction",
+      "title": "Walking — Push Back, Friction Forward",
+      "description": "You push ground backward; friction pushes you forward.",
+      "scene": "friction",
+      "steps": [
+        {
+          "label": "Foot pushes ground",
+          "description": "Muscles apply backward force on the ground.",
+          "visual": "mix"
+        },
+        {
+          "label": "Friction reacts",
+          "description": "Ground friction pushes foot forward — you move ahead.",
+          "visual": "react"
+        },
+        {
+          "label": "Braking",
+          "description": "Brake pads use friction to convert motion into heat and stop.",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "chapterSummary": {
+    "overview": "Friction opposes relative motion between surfaces in contact. This chapter covers types of friction (static, sliding, rolling), factors affecting it, advantages (walking, writing, gripping) and disadvantages (wear, heat loss), and methods to increase or reduce friction.",
+    "keyPoints": [
+      "Static friction prevents motion; sliding friction acts during motion; rolling friction is smallest.",
+      "Friction depends on nature of surfaces and how hard they are pressed together.",
+      "Useful: walking, brakes, holding objects; Harmful: wear, energy wasted as heat.",
+      "Reduce friction: lubricants, ball bearings, polishing, streamlining.",
+      "Increase friction: treaded tyres, brake pads, kabaddi players rubbing hands with soil."
+    ],
+    "examFocus": "Give examples where friction is useful vs harmful. Explain how lubricants work. Compare static, sliding, rolling friction."
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thanks for your feedback</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      min-height: 100vh;
+      background: #0f1419;
+      color: #e2e8f0;
+      text-align: center;
+      padding: 1rem;
+    }
+    p { margin: 0; font-size: 0.95rem; }
+    a { color: #818cf8; }
+  </style>
+</head>
+<body>
+  <p>Thanks — your feedback was recorded.</p>
+  <script>
+    (function () {
+      var msg = { type: 'sci-crush-feedback-submitted' };
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage(msg, '*');
+        return;
+      }
+      try {
+        localStorage.setItem('sci-crush-feedback-redirect', '1');
+      } catch (e) { /* ignore */ }
+      var home = window.location.pathname.replace(/\/static\/feedback-done\.html.*$/, '/');
+      if (!home.endsWith('/')) home += '/';
+      window.location.replace(home);
+    })();
+  </script>
+</body>
+</html>

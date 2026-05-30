@@ -1,0 +1,298 @@
+{
+  "id": "synthetic-fibres-plastics",
+  "classId": "8",
+  "name": "Synthetic Fibres and Plastics",
+  "subject": "chemistry",
+  "icon": "🧵",
+  "summary": "Man-made polymers — nylon, polyester, acrylic. Plastics are mouldable polymers. Learn polymerisation and why thermoplastics differ from thermosetting plastics.",
+  "readTime": "8 min",
+  "crushed": [
+    {
+      "emoji": "🔗",
+      "title": "Polymer = many monomers linked",
+      "text": "Poly = many, mer = unit. Thousands of small monomer units join into long chains."
+    },
+    {
+      "emoji": "🧵",
+      "title": "Synthetic fibres",
+      "text": "Nylon (strong, elastic), Polyester (Terylene — wrinkle-free), Acrylic (Orlon — wool-like)."
+    },
+    {
+      "emoji": "🫙",
+      "title": "Plastics = synthetic polymers",
+      "text": "Can be moulded into any shape. Two types: thermoplastics (remouldable) & thermosetting (permanent shape)."
+    },
+    {
+      "emoji": "♻️",
+      "title": "Plastics persist",
+      "text": "Non-biodegradable — take 100s of years to decompose. Reduce, reuse, recycle."
+    },
+    {
+      "emoji": "⚠️",
+      "title": "Teflon is special",
+      "text": "PTFE coating — non-stick, heat resistant. Used on pans. Monomer: tetrafluoroethene."
+    }
+  ],
+  "sections": [
+    {
+      "id": "fibres",
+      "title": "Common Synthetic Fibres",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Nylon",
+          "detail": "First fully synthetic fibre. Strong, elastic. Ropes, parachutes, socks",
+          "icon": "🧵",
+          "highlight": true
+        },
+        {
+          "label": "Polyester (Terylene)",
+          "detail": "Wrinkle-free, quick-drying. Blended with cotton for terrycot",
+          "icon": "👕"
+        },
+        {
+          "label": "Acrylic (Orlon)",
+          "detail": "Wool-like warmth. Sweaters, blankets — cheaper than wool",
+          "icon": "🧶"
+        },
+        {
+          "label": "Rayon",
+          "detail": "Semi-synthetic — from wood pulp. Feels like silk",
+          "icon": "🎀"
+        }
+      ]
+    },
+    {
+      "id": "plastics",
+      "title": "Types of Plastics",
+      "visualType": "grid",
+      "items": [
+        {
+          "label": "Thermoplastics",
+          "detail": "Soften on heating, harden on cooling. Remouldable — e.g. PVC, polythene",
+          "icon": "♻️",
+          "highlight": true
+        },
+        {
+          "label": "Thermosetting",
+          "detail": "Permanent shape once set. Cannot remould — e.g. bakelite, melamine",
+          "icon": "🔒",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "title": "Thermoplastics vs Thermosetting Plastics",
+      "left": {
+        "label": "Thermoplastics",
+        "points": [
+          "Soften on heating",
+          "Can be remoulded",
+          "Recyclable",
+          "Examples: PVC, polythene, Teflon"
+        ]
+      },
+      "right": {
+        "label": "Thermosetting",
+        "points": [
+          "Do NOT soften on re-heating",
+          "Permanent shape",
+          "Hard to recycle",
+          "Examples: Bakelite, melamine"
+        ]
+      }
+    }
+  ],
+  "demos": [
+    {
+      "id": "polymerisation",
+      "title": "Polymerisation — Making Polythene",
+      "type": "reaction",
+      "scene": "beaker",
+      "description": "Many ethene monomers join head-to-tail to form long polythene chains.",
+      "equation": "n(C₂H₄) → (—C₂H₄—)ₙ",
+      "conditions": "High temp + catalyst",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "C₂H₄",
+          "name": "Ethene (monomer)",
+          "color": "#94A3B8",
+          "state": "gas",
+          "kind": "gas"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "(C₂H₄)ₙ",
+          "name": "Polythene (polymer)",
+          "color": "#FBBF24",
+          "state": "solid"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Ethene gas",
+          "description": "Small ethene molecules (monomers) in reactor",
+          "visual": "mix"
+        },
+        {
+          "label": "Catalyst added",
+          "description": "Catalyst + high pressure triggers polymerisation",
+          "visual": "heat"
+        },
+        {
+          "label": "Chains form",
+          "description": "Thousands of ethene units link into long polymer chains",
+          "visual": "react"
+        },
+        {
+          "label": "Solid polythene",
+          "description": "White waxy solid — bags, bottles, pipes made from this",
+          "visual": "product"
+        }
+      ]
+    },
+    {
+      "id": "nylon-formation",
+      "title": "Nylon Formation (Condensation)",
+      "type": "reaction",
+      "scene": "beaker",
+      "description": "Two different monomers join with loss of a small molecule (H₂O) — condensation polymerisation.",
+      "equation": "Adipic acid + Hexamethylenediamine → Nylon-6,6 + H₂O",
+      "conditions": "Heat",
+      "effect": "color",
+      "reactants": [
+        {
+          "symbol": "Acid",
+          "name": "Adipic acid",
+          "color": "#EF4444",
+          "state": "solid"
+        },
+        {
+          "symbol": "Amine",
+          "name": "Hexamethylenediamine",
+          "color": "#3B82F6",
+          "state": "liquid",
+          "kind": "liquid"
+        }
+      ],
+      "products": [
+        {
+          "symbol": "Nylon",
+          "name": "Nylon-6,6 polymer",
+          "color": "#FBBF24",
+          "state": "solid"
+        },
+        {
+          "symbol": "H₂O",
+          "name": "Water",
+          "color": "#60A5FA",
+          "state": "liquid",
+          "kind": "liquid",
+          "beakerColor": "#60A5FA"
+        }
+      ],
+      "steps": [
+        {
+          "label": "Two monomers",
+          "description": "Adipic acid and hexamethylenediamine mixed",
+          "visual": "mix"
+        },
+        {
+          "label": "Condensation",
+          "description": "Monomers link; H₂O molecule released with each bond",
+          "visual": "react"
+        },
+        {
+          "label": "Long nylon chain",
+          "description": "Strong, elastic nylon polymer forms at interface",
+          "visual": "product"
+        },
+        {
+          "label": "Famous demo",
+          "description": "Nylon rope can be pulled from between two solutions!",
+          "visual": "product"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "plastic-recycling",
+      "title": "Life Cycle of a Plastic Bottle",
+      "description": "From petroleum to bottle to recycling (or landfill).",
+      "steps": [
+        {
+          "label": "Petroleum",
+          "action": "Crude oil refined",
+          "description": "Petroleum fractionated to get ethene monomer.",
+          "icon": "🛢️"
+        },
+        {
+          "label": "Polymerisation",
+          "action": "Ethene → polythene",
+          "description": "Monomers polymerised into plastic pellets.",
+          "icon": "🔗"
+        },
+        {
+          "label": "Moulding",
+          "action": "Pellets → bottle",
+          "description": "Heated and blow-moulded into bottle shape.",
+          "icon": "🫙"
+        },
+        {
+          "label": "Use & discard",
+          "action": "Single use?",
+          "description": "Bottle used once — then trash or recycling bin.",
+          "icon": "🗑️"
+        },
+        {
+          "label": "Recycle",
+          "action": "Melt & remould",
+          "description": "Thermoplastics can be melted and reshaped — reducing waste.",
+          "icon": "♻️"
+        }
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Monomer",
+      "definition": "Small repeating unit that joins to form a polymer",
+      "analogy": "One LEGO brick"
+    },
+    {
+      "term": "Polymer",
+      "definition": "Large molecule made of many repeating monomer units",
+      "analogy": "A long chain of connected LEGO bricks"
+    },
+    {
+      "term": "Polymerisation",
+      "definition": "Chemical process joining monomers into polymers",
+      "analogy": "Clicking LEGO bricks together into a chain"
+    },
+    {
+      "term": "Thermoplastic",
+      "definition": "Plastic that softens on heating and can be remoulded",
+      "analogy": "Play-dough — reshape when warm"
+    }
+  ],
+  "related": [
+    "coal-petroleum",
+    "pollution-air-water"
+  ],
+  "chapterSummary": {
+    "overview": "Synthetic fibres (nylon, polyester, acrylic, rayon) and plastics are man-made polymers. This chapter covers how they are made, their properties, advantages over natural fibres, types of plastics (thermoplastics vs thermosetting), and environmental concerns including biodegradability.",
+    "keyPoints": [
+      "Synthetic fibres are made from petrochemicals through polymerisation.",
+      "Nylon: strong, elastic — ropes, parachutes; Polyester: wrinkle-free fabrics.",
+      "Rayon (artificial silk) from wood pulp; Acrylic resembles wool.",
+      "Thermoplastics can be remoulded (polythene, PVC); thermosetting cannot (bakelite).",
+      "Plastics are non-biodegradable — cause pollution; the 4 R's: Reduce, Reuse, Recycle, Recover."
+    ],
+    "examFocus": "Compare natural vs synthetic fibres. Differentiate thermoplastics vs thermosetting. Discuss plastic disposal problems."
+  }
+}
