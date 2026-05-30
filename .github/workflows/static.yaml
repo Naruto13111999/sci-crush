@@ -14,10 +14,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  # If sci-crush lives in a subfolder of the GitHub repo, set this to that folder name.
-  # If go.mod is at the repo root, use "."
-  SITE_DIR: sci-crush
+# env:
+#   # If sci-crush lives in a subfolder of the GitHub repo, set this to that folder name.
+#   # If go.mod is at the repo root, use "."
+#   SITE_DIR: sci-crush
 
 jobs:
   deploy:
